@@ -10,6 +10,12 @@
 
 ---
 
+## Demo Video
+
+Watch the Vigil platform walkthrough: https://drive.google.com/drive/folders/1naqyI7tghWqBbJsY8tr_PlczIk0OFNHo?usp=sharing
+
+---
+
 ## 1. Executive Summary & Problem Statement
 
 In mutual fund distribution, regulatory oversight is high-stakes. The **Securities and Exchange Board of India (SEBI)** and the **Association of Mutual Funds in India (AMFI)** enforce stringent codes of conduct regarding risk disclosure, product suitability, and performance claims. 
@@ -281,8 +287,8 @@ npm install
 npm run dev
 ```
 Open `http://localhost:5173` in your browser. Default login credentials initialized at startup:
-- **Username:** `audit_officer`
-- **Password:** `Vigil@Audit2026`
+- **Username:** `admin`
+- **Password:** `admin12345`
 
 ---
 
