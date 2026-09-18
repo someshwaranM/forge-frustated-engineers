@@ -1,0 +1,3 @@
+"""
+Vigil — Observability Module
+"""

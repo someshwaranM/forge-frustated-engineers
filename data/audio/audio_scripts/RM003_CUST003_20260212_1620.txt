@@ -1,0 +1,50 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM003_CUST003_20260212_1620.wav
+RM: RM003 — Vikram Sinha
+Customer: CUST003 — Anjali Rao (Aggressive, High Investment Experience)
+Language: Tamil + English (code-mixed)
+Target Duration: ~75-90 seconds
+Ground-truth Severity: HIGH
+Ground-truth Category: Missing/Inadequate Risk Disclosure
+Product Discussed: PROD006 — Vigil Sectoral Thematic Fund (High Risk;
+disclosure_requirements mandates risk-o-meter + concentration-risk disclosure
++ no-guaranteed-return disclosure)
+Violation Notes: Suitability is NOT the issue here — Anjali is Aggressive/High
+experience, so this product does match her profile. The violation is that RM
+completely skips the mandatory concentration-risk and risk-o-meter disclosure
+for this specific High-risk sectoral product, moving straight to closing.
+========================================================================
+(Tamil script with English code-mixing, English translation in brackets)
+
+[0:00] RM: Hi Anjali, Vikram here from Vigil Wealth. எப்படி இருக்கீங்க?
+       [Hi Anjali, Vikram here from Vigil Wealth. How are you?]
+
+[0:05] CUSTOMER: Hi Vikram, நல்லா இருக்கேன், சொல்லுங்க.
+       [Hi Vikram, I'm doing well, tell me.]
+
+[0:08] RM: Anjali, நான் ஒரு Sectoral Thematic Fund பத்தி சொல்லலாம்னு நினைச்சேன். இது recently ரொம்ப நல்ல momentum-ல இருக்கு, தெரியுமா?
+       [Anjali, I thought I'd tell you about a Sectoral Thematic Fund. This has really good momentum recently, you know?]
+
+[0:18] CUSTOMER: Sectoral fund-ா? நான் ஏற்கனவே equity-ல நல்லா invest பண்ணிருக்கேன், இது எந்த sector-ல focus பண்ணுது?
+       [A sectoral fund? I've already invested well in equity, which sector does this focus on?]
+
+[0:25] RM: இது ஒரு specific high-growth sector focus பண்ணுது. Aggressive investors-க்கு perfect fit, உங்க போல profile உள்ளவங்களுக்கு.
+       [This focuses on a specific high-growth sector. Perfect fit for aggressive investors, for people with a profile like yours.]
+
+[0:33] CUSTOMER: சரி, சொல்லுங்க, எவ்வளவு invest பண்ணலாம்?
+       [Okay, tell me, how much should I invest?]
+
+[0:36] RM: நான் சொல்றேன், three lakhs போட்டா நல்லா இருக்கும். Shall I go ahead and process it right now?
+       [I'd say, if you put in three lakhs it would be good. Shall I go ahead and process it right now?]
+
+[0:43] CUSTOMER: சரி, போடுங்க, நான் ready.
+       [Okay, go ahead, I'm ready.]
+
+[0:45] RM: Great, நான் இப்போவே transaction process பண்றேன்.
+       [Great, I'll process the transaction right away.]
+
+[0:48] CUSTOMER: சரி, thanks Vikram.
+       [Okay, thanks Vikram.]
+
+[0:50] RM: Thank you Anjali, have a good day.

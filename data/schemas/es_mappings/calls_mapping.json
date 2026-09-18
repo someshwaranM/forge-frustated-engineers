@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "properties": {
+      "call_id": {
+        "type": "keyword"
+      },
+      "rm_id": {
+        "type": "keyword"
+      },
+      "customer_id": {
+        "type": "keyword"
+      },
+      "date_time": {
+        "type": "date"
+      },
+      "duration_seconds": {
+        "type": "integer"
+      },
+      "audio_file_path": {
+        "type": "keyword"
+      },
+      "processing_status": {
+        "type": "keyword"
+      },
+      "language": {
+        "type": "keyword"
+      },
+      "transcript_original_text": {
+        "type": "text"
+      },
+      "transcript_english_text": {
+        "type": "text"
+      },
+      "transcript_semantic": {
+        "type": "semantic_text",
+        "inference_id": ".jina-embeddings-v5-text-small"
+      },
+      "transcript_segments": {
+        "type": "nested",
+        "properties": {
+          "segment_id": {
+            "type": "keyword"
+          },
+          "speaker": {
+            "type": "keyword"
+          },
+          "text_original": {
+            "type": "text"
+          },
+          "text_english": {
+            "type": "text"
+          },
+          "start_time": {
+            "type": "float"
+          },
+          "end_time": {
+            "type": "float"
+          },
+          "is_violation": {
+            "type": "boolean"
+          }
+        }
+      },
+      "speaker_mapping_method": {
+        "type": "keyword"
+      },
+      "has_violation": {
+        "type": "boolean"
+      },
+      "finding_ids": {
+        "type": "keyword"
+      },
+      "indexed_at": {
+        "type": "date"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "CALL_RM001_CUST004_20260405_1145",
+  "date_time": "2026-04-05T11:45:00Z",
+  "rm_id": "RM001",
+  "customer_id": "CUST004",
+  "total_candidates": 1,
+  "confirmed_count": 1,
+  "dismissed_count": 0,
+  "investigations": [
+    {
+      "candidate_id": "CAND_CALL_RM001_CUST004_20260405_1145_01",
+      "outcome": "CONFIRMED",
+      "finding": {
+        "finding_id": "FND-2026-8E43D4",
+        "call_id": "CALL_RM001_CUST004_20260405_1145",
+        "rm_id": "RM001",
+        "customer_id": "CUST004",
+        "category": "GUARANTEED_RETURN",
+        "severity": "HIGH",
+        "confidence": 0.98,
+        "status": "OPEN",
+        "timestamp_start": 13.0,
+        "timestamp_end": 21.0,
+        "transcript_evidence": "Absolutely sir, you can rest assured. There is no chance of you incurring a loss in this. The money will remain completely safe.",
+        "customer_risk_profile": "Conservative",
+        "product_risk_class": "N/A",
+        "regulation_chunk_id": "AMFI_MFD_COC_2022_II_4_h",
+        "regulation_citation_label": "AMFI Distributor Code \u00a7II.4.h, p.5",
+        "regulation_source_url": "https://www.amfiindia.com/uploads/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022_57d91fe1c4.pdf",
+        "reasoning": "The Relationship Manager explicitly guaranteed capital safety by assuring the customer that there is 'no chance of incurring a loss' and that 'money will remain completely safe'. This constitutes a direct breach of AMFI Distributor Code \u00a7II.4.h, which prohibits mis-selling mutual fund products based on assured returns or absolute capital safety and requires distributors to clearly explain that mutual fund investments are subject to market risks and loss of principal.",
+        "recommended_action": "Issue an immediate written warning to RM001, mandate re-training on AMFI Code of Conduct, and contact customer CUST004 to issue a formal compliance risk clarification regarding market risks and potential loss of principal.",
+        "provider_used": "gemini",
+        "bm25_score": 36.0123,
+        "semantic_score": 0.0,
+        "created_at": "2026-09-15T11:31:17.116624Z",
+        "updated_at": "2026-09-15T11:31:17.116624Z"
+      },
+      "provider_used": "gemini",
+      "reasoning": "The Relationship Manager explicitly guaranteed capital safety by assuring the customer that there is 'no chance of incurring a loss' and that 'money will remain completely safe'. This constitutes a direct breach of AMFI Distributor Code \u00a7II.4.h, which prohibits mis-selling mutual fund products based on assured returns or absolute capital safety and requires distributors to clearly explain that mutual fund investments are subject to market risks and loss of principal.",
+      "investigation_completed_at": "2026-09-15T11:31:08.424822+00:00",
+      "case_id": "CASE-2026-8E43D4"
+    }
+  ],
+  "investigation_completed_at": "2026-09-15T11:31:18.117313+00:00",
+  "generated_at": "2026-09-15T11:31:18.117313+00:00"
+}

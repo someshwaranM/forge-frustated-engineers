@@ -1,0 +1,211 @@
+{
+  "call_id": "CALL_RM001_CUST001_20260310_1030",
+  "customer_id": "CUST001",
+  "rm_id": "RM001",
+  "date_time": "2026-03-10T10:30:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD005",
+    "product_name": "Vigil Small Cap Equity Fund",
+    "risk_class": "High",
+    "suitable_risk_profiles": [
+      "Aggressive"
+    ],
+    "matched_term": "small cap equity fund",
+    "confirmed_in_transactions": true
+  },
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "candidate_id": "CAND_CALL_RM001_CUST001_20260310_1030_01",
+      "category": "SUITABILITY_MISMATCH",
+      "confidence_signal": "HIGH",
+      "detection_type": "SUITABILITY_CHECK",
+      "rule_fired": "RULE_3A_PROFILE_MISMATCH",
+      "summary": "Suitability Mismatch: Customer Meena Iyer (CUST001) has a 'Conservative' risk profile, but Vigil Small Cap Equity Fund (PROD005) is risk class 'High' and only suitable for [Aggressive].",
+      "details": {
+        "customer_id": "CUST001",
+        "customer_name": "Meena Iyer",
+        "customer_risk_profile": "Conservative",
+        "customer_investment_experience": "Low",
+        "product_id": "PROD005",
+        "product_name": "Vigil Small Cap Equity Fund",
+        "product_risk_class": "High",
+        "suitable_risk_profiles": [
+          "Aggressive"
+        ]
+      },
+      "evidence": {
+        "rm_segments": [
+          {
+            "segment_id": "seg_3",
+            "start_time": 7.15,
+            "end_time": 16.81,
+            "text_english": "I wanted to talk to you about a fantastic opportunity. Our small cap equity fund has been one of our best performers this year. A lot of our clients have seen really strong growth in it."
+          },
+          {
+            "segment_id": "seg_7",
+            "start_time": 47.13,
+            "end_time": 58.25,
+            "text_english": "Don't worry too much about that, Mrs. Iyer. Yes, there will be some fluctuation, but over time it evens out. Given how well this fund has been doing, I wouldn't be too concerned. I can go ahead and gross assess this for you today."
+          },
+          {
+            "segment_id": "seg_9",
+            "start_time": 62.07,
+            "end_time": 67.59,
+            "text_english": "Absolutely, trust me on this one. I'll get the paperwork moving and we'll get you started with the small cap fund right away."
+          }
+        ],
+        "customer_segments": [
+          {
+            "segment_id": "seg_4",
+            "start_time": 17.11,
+            "end_time": 25.77,
+            "text_english": "Small cap, isn't that quite risky? I usually prefer safer options, you know that. I've always kept my money in fixed deposits and liquid funds.",
+            "matched_keyword": "\\brisky\\b"
+          },
+          {
+            "segment_id": "seg_6",
+            "start_time": 38.77,
+            "end_time": 46.87,
+            "text_english": "I don't know. I've never really invested in equity before. I'm a bit nervous about market ups and downs.",
+            "matched_keyword": "\\bnever\\s+(?:really\\s+)?invested\\b"
+          }
+        ]
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_a",
+          "citation_label": "AMFI Distributor Code §II.4.a, p.4",
+          "bm25_score": 19.7462,
+          "semantic_score": 0.0,
+          "clause_text": "a. MFDs shall provide full and updated information on schemes, as provided to them by\nthe AMCs, to the investors including SAI, SID, addenda, performance reports, fact \nsheets, portfolio disclosures and brochures. MFDs shall not deliberately withhold or \nomit any material fact or information supplied to them by the AMCs from any investor \nthat the investor should know or may want to know, including information about \nparticular scheme or transaction not being appropriate for the investor.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 4
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_16_153",
+          "citation_label": "SEBI Master Circular MF §16, p.252",
+          "bm25_score": 0.0,
+          "semantic_score": 0.7759,
+          "clause_text": "16.1. No AMC shall deal with any intermediary (i.e. distributors, agents, brokers, \nsub brokers or called by any other name, whether individuals or belonging to \nany other organization structure) in relation to selling and marketing of Mutual \nFund units unless they have cleared the certification examination399.  \n16.2. The certification examination for distributors, agents or any other persons \nemployed or engaged or to be employed or engaged in the sale and/or \ndistribution of mutual fund products, shall be conducted by the National \nInstitute of Securities Markets (NISM)400. \n16.3. As per Regulation 4(3) of the SEBI (Certification of Associated Persons in the \nSecurities Markets) Regulations, 2007, the eligible persons may obtain the \ncertification either by passing the NISM certification examination or qualifying \nfor Continuing Professional Education (CPE) by obtaining such classroom \ncredits as may be specified by NISM from time to time. They shall also follow \nthe guidelines prescribed by the Board and AMFI from time to time. \n16.4. No AMC shall engage/employ employee(s) interacting with investors (i.e. \nthose working in investors relations, call centres, employees engaged in sales \nand marketing etc.) unless they have cleared the certification examination.  \n16.5. Further, such intermediaries and employees shall also adhere to the \nGuidelines specified by the Board and AMFI401.  \n16.6. Due diligence of Mutual Fund Distributors402 \n16.6.1. \nThe AMCs shall regulate the distributors by putting in place a due    \ndiligence process as follows: \n(a) \nThe due diligence of distributors is solely the responsibility of \nmutual funds/AMCs. This responsibility shall not be delegated to \nany agency. However, mutual funds/AMCs may take assistance of \nan agency of repute while carrying out due diligence process of \ndistributors403.  \n(b) \nThe due diligence process shall be initially applicable for \ndistributors satisfying one or more of the following criteria:  \n397 SEBI Circular No. MFD/CIR No.10/310/01 dated September 25, 2001, SEBI Circular No. MFD/CIR/20/23230/2002 dated \nNovember 28, 2002, SEBI Circular No. SEBI/MFD/CIR No.01/6693/03 dated April 3, 2003, SEBI Circular No. SEBI/IMD/CIR \nNo.2/254/04 dated February 4, 2004, SEBI Circular No. MFD/CIR/06/210/2002 dated June 26, 2002. \n398 Exemption for Senior Citizens: Senior citizens with experience in distributing Mutual Funds units are exempt from the \nmandatory certification examination if they have completed 50 years of age and have experience of at least 5 years as on \nSeptember 30, 2003. They are also required to follow the guidelines prescribed by the Board and AMFI. They had to attend a \nmutual fund training programme and a certificate to that effect endorsed by a mutual fund should be submitted to AMFI. \n399 Refer SEBI letter No.– OW / 14970 / 2012 dated July 5, 2012 \n400 SEBI Circular No. Cir/IMD/DF/5/2010 dated June 24, 2010 \n401 SEBI Circular No. MFD/CIR No.10/310/01 dated September 25, 2001, SEBI Circular No. MFD/CIR/20/23230/2002 dated \nNovember 28, 2002, Refer SEBI email dated September 22, 2020 & October 14, 2020 \n402 SEBI Circular No. CIR/IMD/DF/13/2011 dated August 22, 2011, Refer SEBI email dated February 17, 2011. \n403 SEBI Circular No. Cir/IMD/DF/7/2012 dated February 28, 2012, Refer SEBI letter no. IMD/RB/35057/2011 dated November \n16, 2011 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(i) \nMultiple point presence (More than 20 locations)  \n(ii) \nAUM raised over Rs.100 Crore across industry in the non-\ninstitutional category but including high net worth individuals \n(HNIs)  \n(iii) Commission received of over Rs.1 Crore p.a. across industry  \n(iv) Commission received of over Rs.50 Lakh from a single \nMutual Fund \n(c) \nAt the time of empanelment and periodic reviews, Mutual \nFunds/AMCs shall undertake a due diligence process to satisfy ‘fit \nand proper’ criteria that incorporate, amongst others, the following \nfactors:  \n(i) \nBusiness model, experience and proficiency in the business.  \n(ii) \nRecord of regulatory / statutory levies, fines and penalties, \nlegal suits, customer compensations made; causes for these \nand resultant corrective actions taken.  \n(iii) Review of associates and subsidiaries on above factors.  \n(iv) Organizational controls to ensure that the following \nprocesses are delinked from sales and relationship \nmanagement processes and personnel:  \n(I) \nCustomer risk / investment objective evaluation.  \n(II) \nMF scheme evaluation and defining its appropriateness \nto various customer risk categories. \n(d) \nCustomer relationship and transactions shall be categorized as:   \n(i) \nAdvisory - where a distributor represents to offer advice while \ndistributing the product, it shall be subject to the principle of \n‘appropriateness’ of products to that customer category.   \nAppropriateness is defined as selling only that product \ncategorization that is identified as best suited for investors \nwithin a defined upper ceiling of risk appetite.   No exception \nshall be made.  \n(ii) \nExecution Only - in case of transactions that are not \ncategorized as ‘advisory’:  \n(I) \nWhere the distributor has information to believe that the \ntransaction is not appropriate for the investor, a written \ncommunication be made to the investor regarding the \nunsuitability of   the product.  The communication shall \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\nhave to be duly acknowledged and accepted by \ninvestor.  \n(II) \nAn investor confirmation to the effect that the \ntransaction is ‘execution only’ notwithstanding the \nadvice of in-appropriateness from that distributor be \nobtained prior to the execution of the transaction.  \n(III) For all such ‘execution only’ transactions, the investor is \nnot required to pay the distributor anything404. \n(iii) There shall be no third categorization of customer \nrelationship / transaction.  \n(iv) While    selling Mutual    Fund    schemes of group entities405 \nor associates, the distributor shall make disclosure to the \ncustomer regarding the conflict of interest arising from the \ndistribution of such schemes.  \n(e) \nCompliance and risk management functions of the distributor shall \ninclude review of defined management processes for:  \n(i) \nThe criteria to be used in review of products and the \nperiodicity of such review.  \n(ii) \nThe factors to be included in determining the risk appetite of \nthe customer and the investment categorization and \nperiodicity of such review.  \n(iii) Review of transactions, exceptions identification, escalation \nand resolution process by internal audit.  \n(iv) Recruitment, training, certification and performance review of \nall personnel engaged in this business.  \n(v) \nCustomer on boarding and relationship management \nprocess, servicing standards, enquiry / grievance handling \nmechanism.  \n(vi) Internal/ external audit processes, their comments / \nobservations as it relates to MF distribution business. \n(vii) Findings of ongoing review from sample survey of investors. \n(f) \nMutual Funds/AMCs may implement additional measures as \ndeemed appropriate to help achieve greater investor protection. \n404 SEBI Circular No.. SEBI/HO/IMD/IMD-PoD-1/P/CIR/2025/115 dated August 08, 2025 \n405 SEBI Circular No. SEBI/HO/IMD/DF2/CIR/P/2021/024 dated March 04, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "CERTIFICATION AND REGISTRATION OF INTERMEDIARIES397 398",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 252
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_Annexure_4_229",
+          "citation_label": "SEBI Master Circular MF §Annexure 4:, p.360",
+          "bm25_score": 0.0,
+          "semantic_score": 0.7738,
+          "clause_text": "1.1.2.2.4. Risk Management - Role of other CXOs  \n(v) \n The CXOs shall be responsible for the governance of the respective risk \ntypes.  \n(vi) \nIn respect of respective risk type, CXO should ensure:  \na. Adherence to the guidelines pertinent to SEBI in respect of RMF and \nrelevant \nprinciples thereunder \nincluding \nrisk \nidentification, \nrisk \nmanagement, risk reporting (both periodic and escalation of material \nincident) and corrective actions taken.  \nb. Defining specific responsibility regarding risk management of key \npersonnel reporting to them.   \nc. Maintaining risk level as per the risk metric.  \n(vii) \nThe CXOs shall take immediate corrective action for non-compliance or major \nfinding post approval from CEO as per DoP and shall report to CRO regarding \nthe risk reports.  \n(viii) \nThe CXO shall escalate to CEO and the CRO any major findings reported by \nrespective risk management function.  \n1.1.2.2.5. Risk Management - Role of Fund Manager (FM)  \n(i) \nThe FM shall be responsible for daily management of investment risk of \nmanaged scheme(s) such as market Risk, liquidity Risk, credit risk and other \nscheme specific risks and appropriate risk reporting of any risk related event \nto CIO.   \n(ii) \nIn respect of schemes managed by them, FMs should ensure:  \nAnnexures to the Master Circular for Mutual Funds as on March 20, 2026 \n   Back to Annexure Index                                                                                    Back to Main Index \n\na. Adherence to relevant SEBI guidelines in respect of RMF and relevant \nprinciples thereunder including risk identification, risk management, \nreporting and corrective actions etc.  \nb. Adherence to risk appetite framework to maintain appropriate risk level \nfor schemes.  \nc. If there is any need of change in the risk appetite of the scheme within \nthe PRC of that particular scheme, the same is to be with the approval of \nthe CIO.  \n(iii) \nThe FM shall take corrective action, if required, as per the approved DoP and \nescalate major risk related event to CIO.  \n1.2. Identification of Risks   \nFor the identification of risks, the RMF should address the following key questions:  \n1.2.1. What are the different types of risks faced by the mutual fund/AMC   and its \nmutual fund schemes?  \n1.2.2. What is the probability of the happening of each of the above risks, considering \nthe control environment and automation within the AMC, external factors or \ndependencies such as market infrastructure, outsourced activities, etc. and \navailable historical risk data?  \n1.2.3. What is the likely impact of key risk events, in terms of financial loss, reputation \nloss, impact on investors/ unit holders and regulatory action?  \n1.2.4. What are the emerging or new risks due to new business lines, new products, \nstatutory changes, changes in external environment or market infrastructure, \netc.?  \n1.2.5. The mandatory and recommendatory elements for identification of risks, are \noutlined below:  \n1.2.5.1.  Mandatory Elements  \n(i) \n Each AMC shall identify on an ongoing basis, the specific risks to be covered \nwithin the RMF, based on the nature, scale and complexity of its business, the \nrisk profiles and strategies of the funds it manages, and the impact of different \nrisks on its mutual funds business.  \n(ii) \nDocumented risk profile for each of the key functions incorporating events that \nmight create, enhance, prevent, degrade, accelerate or delay the achievement \nof objectives, sources of risks and areas impacted due to the event.",
+          "heading": "ANNEXURE 4: RISK MANAGEMENT FRAMEWORK (RMF) FOR MUTUAL",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 360
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND_CALL_RM001_CUST001_20260310_1030_02",
+      "category": "MISSING_DISCLOSURE",
+      "confidence_signal": "MEDIUM",
+      "detection_type": "DISCLOSURE_CHECK",
+      "summary": "Inadequate / Partial Risk Disclosure: RM mentioned general risk keywords (fluctuation) for Vigil Small Cap Equity Fund (PROD005), but omitted mandatory product-specific disclosures: [risk-o-meter]. Required: 'Risk-o-meter + high-volatility disclosure + no-guaranteed-return disclosure mandatory.'.",
+      "details": {
+        "product_id": "PROD005",
+        "product_name": "Vigil Small Cap Equity Fund",
+        "product_risk_class": "High",
+        "mandatory_requirements": "Risk-o-meter + high-volatility disclosure + no-guaranteed-return disclosure mandatory.",
+        "missing_elements": [
+          "risk-o-meter"
+        ],
+        "matched_generic_keywords": [
+          "fluctuation"
+        ]
+      },
+      "evidence": {
+        "rm_segments": [
+          {
+            "segment_id": "seg_1",
+            "start_time": 0.01,
+            "end_time": 4.53,
+            "text_english": "Good morning, Mrs. Iyer. This is Arjun from Vigil Wealth. Thank you for taking my call.",
+            "text_original": "Good morning, Mrs. Iyer. This is Arjun from Vigil Wealth. Thank you for taking my call."
+          },
+          {
+            "segment_id": "seg_3",
+            "start_time": 7.15,
+            "end_time": 16.81,
+            "text_english": "I wanted to talk to you about a fantastic opportunity. Our small cap equity fund has been one of our best performers this year. A lot of our clients have seen really strong growth in it.",
+            "text_original": "I wanted to talk to you about a fantastic opportunity. Our small cap equity fund has been one of our best performers this year. A lot of our clients have seen really strong growth in it."
+          },
+          {
+            "segment_id": "seg_5",
+            "start_time": 26.05,
+            "end_time": 38.45,
+            "text_english": "I understand, but honestly, in this market, staying too safe means you're missing out. Small caps have given much higher returns than anything else this year. I really think you should put at least two lakhs into this.",
+            "text_original": "I understand, but honestly, in this market, staying too safe means you're missing out. Small caps have given much higher returns than anything else this year. I really think you should put at least two lakhs into this."
+          },
+          {
+            "segment_id": "seg_7",
+            "start_time": 47.13,
+            "end_time": 58.25,
+            "text_english": "Don't worry too much about that, Mrs. Iyer. Yes, there will be some fluctuation, but over time it evens out. Given how well this fund has been doing, I wouldn't be too concerned. I can go ahead and gross assess this for you today.",
+            "text_original": "Don't worry too much about that, Mrs. Iyer. Yes, there will be some fluctuation, but over time it evens out. Given how well this fund has been doing, I wouldn't be too concerned. I can go ahead and gross assess this for you today."
+          },
+          {
+            "segment_id": "seg_9",
+            "start_time": 62.07,
+            "end_time": 67.59,
+            "text_english": "Absolutely, trust me on this one. I'll get the paperwork moving and we'll get you started with the small cap fund right away.",
+            "text_original": "Absolutely, trust me on this one. I'll get the paperwork moving and we'll get you started with the small cap fund right away."
+          },
+          {
+            "segment_id": "seg_11",
+            "start_time": 69.81,
+            "end_time": 71.49,
+            "text_english": "Thank you, Mrs. Iyer. Talk soon.",
+            "text_original": "Thank you, Mrs. Iyer. Talk soon."
+          }
+        ],
+        "rm_segments_evaluated": 6,
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_58",
+          "citation_label": "SEBI Master Circular MF §3, p.97",
+          "bm25_score": 37.224,
+          "semantic_score": 0.8194,
+          "clause_text": "6.16.2. \nRisk value of commodities for risk-o-meter139: For evaluation of risk \nvalue of commodities in which mutual funds are permitted to invest, in \nterms of Paragraph 6.16.1(g), investment in commodities by mutual fund \nschemes shall be assigned a risk score corresponding to the annualized \nvolatility of the price of the said commodity. The annualized volatility \nshall be computed quarterly based on past 15 years’ prices of \nbenchmark index of the said commodity and risk score for the \ncommodity shall be in terms of the following table: \nAnnualized volatility \nRisk value on risk-o-meter (Risk) \n<10% \n3 (Moderate) \n10-15% \n4 (Moderately High) \n15-20% \n5 (High) \n>20% \n6 (Very high) \nIllustration: If price of gold has annualized volatility of 18% based on price \nof gold of past 15 years, then Gold and gold related instruments will have \nrisk value of 5 (High) on risk-o-meter.  \n6.16.3. \nProduct label shall be disclosed in: \n(a) \nFront page of initial offering application forms, SID and KIM. \n(b) \nCommon application form – along with the information about the \nscheme.  \n(c) \nThe product label with respect to Paragraph 6.16.3(a) & 6.16.3.(b) \nshall be placed in proximity to the caption of the scheme and shall \nbe prominently visible. \n(d) \nScheme advertisements - placed in a manner so as to be \nprominently visible to investors. \n6.16.4. \nChange in risk-o-meter shall not be considered as a Fundamental \nAttribute Change of the scheme in terms of Regulation 22(9)(c). \n6.17. Risk-O-Meter related disclosures \n6.17.1. \n140Mutual Funds/AMCs shall include the following in all disclosures, \nincluding promotional material or any other disclosures stipulated by the \nBoard: \n139 SEBI Circular no. SEBI/HO/IMD/IMD-II DOF3/P/CIR/2022/49 dated April 11, 2022 \n140 SEBI/HO/IMD/IMD-II DOF3/P/CIR/2021/621 dated August 31, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(a) \nrisk-o-meter of the scheme wherever the performance of the \nscheme is disclosed \n(b) \nrisk-o-meter of the scheme and benchmark wherever the \nperformance of the scheme vis-à-vis that of the benchmark is \ndisclosed.  \n6.17.2. \nAMCs shall disclose risk-o-meter of the scheme and benchmark on: \n(a) \nFront page of initial offering application form, SID and KIM; and  \n(b) \nCommon application form – along with the information about the \nscheme141.  \n6.17.3. \nThe disclosure requirement of the risk-o-meter of benchmark is \napplicable for primary benchmark which is specified in the SID. \n6.17.4. \nFor international benchmarks, risk-o-meter score may be assigned in \nline with risk-o-meter score assigned to foreign securities as specified in \nParagraph 6.16 of this Master Circular. \n6.17.5. \nAMCs shall enter into arrangements with their selected Index providers \nto provide the risk-o-meter for their benchmarks to the AMCs latest by \nthe 5th calendar day of the succeeding month. \n6.18. Potential Risk Class (PRC) Matrix142    \n6.18.1. \nAll debt mutual fund schemes shall be classified in terms of a PRC \nmatrix consisting of parameters based on maximum interest rate risk \n(measured by Macaulay Duration (MD) of the scheme) and maximum \ncredit risk (measured by Credit Risk Value (CRV) of the scheme).",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 97
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_57",
+          "citation_label": "SEBI Master Circular MF §3, p.94",
+          "bm25_score": 34.6876,
+          "semantic_score": 0.8188,
+          "clause_text": "6.14.2. \nThe AMCs shall include the aforesaid report in their annual reports, as \npart of the Report of the Trustees. \n6.14.3. \nFurther, in order to facilitate awareness amongst investors about various \nactivities related to mutual fund investments, the Board has prepared an \nInvestor Charter, provided at Format No. 9D, for Mutual Funds, inter-\nalia, detailing the services provided to Investors, Rights of Investors, \nvarious activities of Mutual Funds with timelines, DOs and DON’Ts for \nInvestors and Grievance Redressal Mechanism.  \n6.14.4. \nMutual Funds shall bring the Investor Charter for Mutual Funds to the \nnotice of their unit holders (existing as well as new unit holders) by \ndisclosing the Investor Charter on their websites, making them available \nat prominent places in the office, etc.  \n6.14.5. \nFurther, Mutual Funds shall display link/option to lodge complaint with \nthem directly on their websites and mobile apps. Additionally, link to \nSCORES website/ link to download mobile app (SEBI SCORES) shall \nalso be provided on their website. \n6.15. Brokerage and commission paid to associates132  \n6.15.1. \nBrokerage and commission paid to associates/related parties/group \ncompanies of sponsor/AMC shall be disclosed in the unaudited half \nyearly financial results, the abridged scheme wise annual report and the \nSAI, as per Format No. 7B. \n6.16. Product Labelling in Mutual Funds133    \n6.16.1. \nAll the mutual funds shall ‘Label’ their schemes on the parameters as \nmentioned under: \n(a) \nNature of scheme such as to create wealth or provide regular \nincome in an indicative time horizon (short/ medium/ long term). \n(b) \nA brief about the investment objective (in a single line sentence) \nfollowed by kind of product in which investor is investing \n(Equity/Debt). \n(c) \nThe depiction of risk shall be through pictorial meter named \n\"Riskometer\" and this meter shall appropriately depict the level of \nrisk in any specific scheme.  \n(d) \nRisk-o-meter shall have following six levels of risk for mutual funds \n[with the given colour scheme134   \n132 SEBI Circular No. SEBI/IMD/CIR No 18/198647/2010 dated March 15, 2010 \n133 SEBI Circular No. CIR/IMD/DF/5/2013 dated March 18, 2013 \n134 SEBI Circular No. CIR/IMD/DF/4/2015 dated April 30, 2015, Circular No. SEBI/HO/IMD/DF3/CIR/P/2020/197 Dated October \n05, 2020 and SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(i) \nLow risk- Irish Green [#08A04B]135  \n(ii) \nLow to Moderate risk- Chartreuse [#7FFF00] \n(iii) Moderate risk- Neon Yellow [#FFFF33] \n(iv) Moderately High risk-Caramel [#C68E17] \n(v) \nHigh – risk-Dark Orange [#FF8C00]  \n(vi) Very High risk.- Red [#F70D1A] \n(e) \nThe above given colour scheme of risk-o-meter shall be applicable \nfor \nall \ndigital \nand \npolychrome \nprinted \npromotion \nmaterials/disclosures for the schemes. \n(f) \nRiskometer: Risk level of the scheme shall be depicted by “Risk-o-\nmeter”, as given below136: \nThe risk of the scheme/benchmark is [level of risk] \nFor example, the risk depicted in the above risk-o-meter is \nModerately High. \n(g) \nThe detailed guidelines for evaluation of risk levels of a scheme \nalong with few examples are provided at Annexure 10137. \nPursuant to calculation of risk value of the scheme portfolio based \non the methodology specified in Annexure 10, risk level of a \nscheme as mentioned at Table 11 of Annexure 10 shall be \ndepicted by risk-o-meter shown above at Paragraph 6.16.1(f).  \n(h) \nBased on the scheme characteristics, Mutual Funds shall assign \nrisk level for schemes at the time of launch of scheme/NFO.  \n(i) \nAny change in risk-o-meter of the scheme or its benchmark shall \nbe communicated by way of Notice cum Addendum and by way of \nan e-mail or SMS to unitholders of that particular scheme. The \n135 HTML Color Code \n136 SEBI Circular no. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \n137 SEBI Circular no. SEBI/HO/IMD/DF3/CIR/P/ 2020/197 dated October 05, 2020, Refer SEBI letter no. SEBI/HO/IMD-\nII/DOF3/OW/P/2021/1566/1 dated January 19, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\nformat for disclosure of change in Risk-o-meter shall be as \nunder138: \nName of \nthe \nScheme(s\n) \nExisting Risk-o-meter of \nScheme/Benchmark \nRevised Risk-o-meter of \nScheme/Benchmark \nXXXX \nLarge and \nMidcap \nFund \nThe risk of the scheme is \nmoderately high \nThe risk of the scheme is very \nhigh] \n(j) \nRisk-o-meter shall be evaluated on a monthly basis and Mutual \nFunds/AMCs shall disclose the Risk-o-meter along with portfolio \ndisclosure for all their schemes on their respective website and on \nAMFI website within 10 calendar days from the close of each \nmonth.  \n(k) \nMutual Funds shall disclose the risk level of schemes as on March \n31 of every year, along with number of times the risk level has \nchanged over the year, on their website and AMFI website.  \n(l) \nMutual Funds shall publish the following table of scheme wise \nchanges in Risk-o-meter in scheme wise Annual Reports and \nAbridged summary: \nScheme \nname  \nRisk-o-meter \nlevel at start \nof \nthe \nfinancial year  \nRisk-o-meter \nlevel at end of \nthe financial \nyear \nNumber \nof \nchanges \nin \nRisk-o-meter \nduring \nthe \nfinancial year \n(m) A disclaimer shall be given stating that investors should consult \ntheir financial advisers if they are not clear about the suitability of \nthe product.  \n138 SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 94
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_16_13_11_354",
+          "citation_label": "SEBI Master Circular MF §13.11, p.641",
+          "bm25_score": 30.7948,
+          "semantic_score": 0.0,
+          "clause_text": "1. Derivative strategies \n2. Swing Pricing  \n3. Provisions on creation of Segregated portfolio/Side pocketing  \n4. Short selling / stock lending \nH. Transaction Charges and Stamp Duty  \nX. DISCLOSURES AND REPORTS BY THE FUND \n1. Account Statement/Consolidated Account Statement \n2. Monthly Portfolio Disclosures/Financial Results \n3. Half Yearly Results \n4. Annual Report \nNotwithstanding anything contained in this Statement of Additional Information, the \nprovisions of the SEBI (Mutual Funds) Regulations, 2026 and the guidelines thereunder shall \nbe applicable. \nInstruction:  \nA Mutual Fund is free to add any other disclosure, which in the opinion of the Trustees of the Mutual \nFund (Trustees) or the Asset Management Company (AMC) is material, provided that such \ninformation is not presented in an incomplete, inaccurate or misleading manner. Care should be taken \nto ensure that inclusion of such information does not, by virtue of its nature, or manner of presentation, \nobscure or impede understanding of any information that is required to be included under the Scheme \nInformation Document and Statement of Additional Information. \nNote:  \nThe wording in italics is explanatory commentary/instructions.  \nThe words in Arial font are the text to be used in the Statement of Additional Information, as \napplicable.  \n***** \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nC. KEY INFORMATION MEMORANDUM (KIM)527 \nNAME OF THE SCHEME \n(Type of the Scheme) \n1. Name and type of the scheme to be aligned with SEBI Circulars on Categorization and \nRationalization of Mutual Fund Schemes, \n2. As per SEBI Circulars on Potential Risk Class (PRC) Matrix for debt schemes, type of scheme \nto include PRC description  \n3. As per SEBI Circulars on Potential Risk Class (PRC) Matrix for debt schemes, the PRC matrix \nalong with the mark for the cell in which the scheme resides shall be disclosed on front page \nof Key Information Memorandum. \n4. For Index Funds / Index ETF - Name of scheme shall include complete name of underlying \nIndex. \n5. In case of FOF’s where single fund is underlying (Feeder Funds): To include the complete \nname of the underlying fund in the name of the scheme. \n6. Product Labelling and Risk-o-meter of the Scheme and Benchmark should be disclosed.  \n7. In case the scheme is listed/proposed to be listed (ETFs/close ended etc.), the Scrip Code \nissued by the stock exchange after listing to be mentioned below the Scheme Name.  \nThis product is suitable \nScheme \nRiskometer \nBenchmark Riskometer (as \nfor \ninvestors who are \napplicable) \nseeking*: \nAs per AMFI Tier I \nBenchmark i.e. ……………… \n(as applicable) \n \nThe above product labelling assigned during the New Fund Offer (NFO) is based on internal \nassessment of the scheme characteristics or model portfolio and the same may vary post NFO \nwhen the actual investments are made. \n527 SEBI/IMD/CIR No. 5/126096/08 dated May 23, 2008 \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nOffer for Units of Rs. -- Per Unit for cash during the \nNew fund Offer Period and at NAV based prices upon re-opening \nNew Fund Offer Opens on: \nNew Fund Offer Closes on: \nScheme Re-opens for continuous sale and\nrepurchase on: \nName of Mutual Fund                                  : \nName of Asset Management Company          : \nName of Trustee Company                            : \nAddresses, Website of the entities \nThis Key Information Memorandum (KIM) sets forth the information, which a prospective investor \nought to know before investing. For further details of the scheme/Mutual Fund, due diligence \ncertificate by the AMC, Key Personnel, investors’ rights & services, risk factors, ,penalties & \npending litigations etc. investors should, before investment, refer to the Scheme Information \nDocument and Statement of Additional Information available free of cost at any of the Investor \nService Centres or distributors or from the website www. -----. \nThe Scheme particulars have been prepared in accordance with Securities and \nExchange Board of India (Mutual Funds) Regulations 2026, as amended till date, and \nfiled with Securities and Exchange Board of India (SEBI). The units being offered for \npublic subscription have not been approved or disapproved by SEBI, nor has SEBI \ncertified the accuracy or adequacy of this KIM. \nThis Key Information Memorandum is dated _______ .  \nInvestment Objective \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nThis includes asset allocation table giving the broad classifica\ntion of assets and indicative exposure level in percentage ter\nms. The asset allocation should be consistent with the invest\nment objective of the scheme and SEBI circulars on Categori\nzation and Rationalization of Mutual Fund Schemes. \nAsset Allocation Pattern \nof the scheme \nIndicative allocations (% of \ntotal assets) \nMaximum \nMinimum \nInstrume\nnts \n Percentage of investment in overseas securities, derivatives \nfor non-hedging purposes, stock lending, securitized debt, Debt \ninstruments with special features (AT 1 and AT 2 Bonds), Debt \nInstruments with SO / CE and InVITs, Tri-party repos, other \nmutual funds, repo/ reverse repo transactions in corporate debt \nsecurities, Credit Default Swaps, covered call option etc). to be \nindicated. \n In case the Scheme does not intend to invest in these securities, \nnegative confirmation in a table format should be provided for \nsecurities / instruments in which the scheme will not invest. \n Cumulative gross exposure limits to be adhered in terms of \nMaster Circular for Mutual Funds \n Any other information/disclosure to be added as per applicable \nConsolidated checklist of standard observations. \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nIndicative Table (Actual instrument/percentages may vary subject t\no applicable SEBI circulars) \nSl. no \nType of Instrument \nPercentage \nof \nexposure \nMaster \nCircular\nreferences*",
+          "heading": "of SEBI Master Circular for Mutual Funds), the",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 641
+        }
+      ]
+    }
+  ],
+  "detection_completed_at": "2026-09-18T08:15:54.674445+00:00",
+  "generated_at": "2026-09-18T08:15:54.674445+00:00"
+}

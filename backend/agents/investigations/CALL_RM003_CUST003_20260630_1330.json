@@ -1,0 +1,62 @@
+{
+  "call_id": "CALL_RM003_CUST003_20260630_1330",
+  "date_time": "2026-06-30T13:30:00Z",
+  "rm_id": "RM003",
+  "customer_id": "CUST003",
+  "total_candidates": 3,
+  "confirmed_count": 1,
+  "dismissed_count": 2,
+  "investigations": [
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_01",
+      "outcome": "CONFIRMED",
+      "finding": {
+        "finding_id": "FND-2026-54585F",
+        "call_id": "CALL_RM003_CUST003_20260630_1330",
+        "rm_id": "RM003",
+        "customer_id": "CUST003",
+        "category": "AMBIGUOUS_RETURN_CLAIM",
+        "severity": "LOW",
+        "confidence": 0.75,
+        "status": "OPEN",
+        "timestamp_start": 10.0,
+        "timestamp_end": 18.0,
+        "transcript_evidence": "I wanted to flag a multi-asset allocation fund we've just added. Given the market mood right now, I think this should perform well over the next year also.",
+        "customer_risk_profile": "Aggressive",
+        "product_risk_class": "N/A",
+        "regulation_chunk_id": "AMFI_MFD_COC_2022_II_4_g",
+        "regulation_citation_label": "AMFI Distributor Code \u00a7II.4.g, p.5",
+        "regulation_source_url": "https://www.amfiindia.com/uploads/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022_57d91fe1c4.pdf",
+        "reasoning": "The RM used suggestive performance language ('I think this should perform well over the next year also') when pitching a multi-asset allocation fund. Under AMFI Distributor Code Clause II.4.g, distributors are required to abstain from indicating or assuring returns/performance for any scheme. Per compliance guidelines, soft/hedged return claims are confirmed at LOW severity for routing to supervisory review.",
+        "recommended_action": "Route to compliance supervisor queue and send advisory guidance to RM RM003 regarding avoidance of soft/hedged return statements during client interactions.",
+        "provider_used": "gemini",
+        "bm25_score": 27.5811,
+        "semantic_score": 0.9201,
+        "created_at": "2026-09-15T13:22:53.054190Z",
+        "updated_at": "2026-09-15T13:22:53.054190Z"
+      },
+      "provider_used": "gemini",
+      "reasoning": "The RM used suggestive performance language ('I think this should perform well over the next year also') when pitching a multi-asset allocation fund. Under AMFI Distributor Code Clause II.4.g, distributors are required to abstain from indicating or assuring returns/performance for any scheme. Per compliance guidelines, soft/hedged return claims are confirmed at LOW severity for routing to supervisory review.",
+      "investigation_completed_at": "2026-09-15T13:22:49.180942+00:00",
+      "case_id": "CASE-2026-54585F"
+    },
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_02",
+      "outcome": "DISMISSED_VALIDATION_FAILED",
+      "finding": null,
+      "provider_used": null,
+      "reasoning": "LLM execution failed on both primary and fallback: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 57.406432191s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.6-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+      "investigation_completed_at": "2026-09-15T13:24:02.345575+00:00"
+    },
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_03",
+      "outcome": "DISMISSED_VALIDATION_FAILED",
+      "finding": null,
+      "provider_used": null,
+      "reasoning": "LLM execution failed on both primary and fallback: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 57.420793846s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.6-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+      "investigation_completed_at": "2026-09-15T13:26:02.323013+00:00"
+    }
+  ],
+  "investigation_completed_at": "2026-09-15T13:26:03.323985+00:00",
+  "generated_at": "2026-09-15T13:26:03.323985+00:00"
+}

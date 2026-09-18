@@ -1,0 +1,49 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM004_CUST004_20260228_1050.wav
+RM: RM004 — Sneha Kulkarni
+Customer: CUST004 — Suresh Pillai (Conservative, Medium Investment Experience)
+Language: Hindi
+Target Duration: ~80-95 seconds
+Ground-truth Severity: CLEAN (no violation)
+Ground-truth Category: N/A
+Product Discussed: PROD002 — Vigil Short Duration Debt Fund (Low Risk)
+Notes: RM correctly matches a Low-risk product to this Conservative customer,
+gives a full and honest risk disclosure, and makes no return promises. Fully
+compliant call — contrast this with call #2, where a different RM (RM001)
+handled the same customer with a mild guaranteed-return violation.
+========================================================================
+(Hindi in Devanagari, with English translation in brackets after each line)
+
+[0:00] RM: नमस्ते सुरेश जी, मैं स्नेहा बोल रही हूँ Vigil Wealth से।
+       [Hello Mr. Suresh, this is Sneha calling from Vigil Wealth.]
+
+[0:05] CUSTOMER: नमस्ते स्नेहा जी, बताइए।
+       [Hello Sneha, tell me.]
+
+[0:07] RM: सर, आपकी profile देखकर मैं आपके लिए एक Short Duration Debt Fund suggest करना चाहती हूँ, ये अपेक्षाकृत कम risk वाला fund है।
+       [Sir, looking at your profile, I'd like to suggest a Short Duration Debt Fund for you, it's a relatively low-risk fund.]
+
+[0:17] CUSTOMER: ठीक है, इसमें return कैसा मिलता है?
+       [Okay, what kind of returns does this give?]
+
+[0:20] RM: सर, मैं आपको कोई fixed या guaranteed return नहीं बता सकती, ये market conditions पर depend करता है। पिछले कुछ सालों में ये fund काफी stable रहा है, लेकिन future performance की कोई guarantee नहीं दे सकती।
+       [Sir, I can't tell you any fixed or guaranteed return, it depends on market conditions. This fund has been quite stable over the past few years, but I can't guarantee future performance.]
+
+[0:34] CUSTOMER: समझ गया। इसमें risk factors क्या हैं?
+       [I understand. What are the risk factors in this?]
+
+[0:37] RM: सर, ये debt fund है, तो interest rate में बदलाव से थोड़ा असर हो सकता है, लेकिन equity funds की तुलना में इसमें volatility काफी कम है। मैं आपको scheme document भी भेज दूंगी जिसमें सारे risk factors detail में लिखे हैं।
+       [Sir, this is a debt fund, so changes in interest rates can have some impact, but compared to equity funds, the volatility here is much lower. I'll also send you the scheme document which has all the risk factors detailed.]
+
+[0:52] CUSTOMER: ठीक है, ये मुझे सही लग रहा है मेरी जरूरत के हिसाब से।
+       [Okay, this seems right for me based on my needs.]
+
+[0:57] RM: जी सर, मुझे भी लगता है ये आपके risk profile के हिसाब से suitable है। मैं form भेज देती हूँ, आप ध्यान से पढ़कर ही sign कीजिएगा।
+       [Yes sir, I also think this is suitable for your risk profile. I'll send the form, please read it carefully before signing.]
+
+[1:08] CUSTOMER: जरूर, धन्यवाद स्नेहा जी।
+       [Sure, thank you Sneha.]
+
+[1:10] RM: धन्यवाद सर, आपका दिन शुभ हो।
+       [Thank you sir, have a good day.]

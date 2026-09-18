@@ -1,0 +1,90 @@
+{
+  "followup_turn_1": {
+    "session_id": "sess_followup_v2",
+    "response_text": "Based on SEBI regulations retrieved from the indexed regulatory database, **Regulation 38 of the SEBI (Mutual Funds) Regulations, 1996** explicitly prohibits providing or promising guaranteed returns in a mutual fund scheme, except under strictly defined conditions.\n\n---\n\n### Key Regulatory Provisions\n\n#### **SEBI (Mutual Funds) Regulations, 1996 — Regulation 38**\n**Heading:** *No guaranteed return shall be provided in a scheme—*\n\n* **SEBI MF Regs 1996 §Reg.38(a)** (Chunk ID: `SEBI_MF_REGS_1996_V_38_a`, Page 41):\n  > *\"No guaranteed return shall be provided in a scheme, (a) unless such returns are fully guaranteed by the sponsor or the asset management company;\"*\n\n* **SEBI MF Regs 1996 §Reg.38(b)** (Chunk ID: `SEBI_MF_REGS_1996_V_38_b`, Page 42):\n  > *\"(b) unless a statement indicating the name of the person who will guarantee the return, is made in the offer document;\"*\n\n* **SEBI MF Regs 1996 §Reg.38(c)** (Chunk ID: `SEBI_MF_REGS_1996_V_38_c`, Page 42):\n  > *\"(c) the manner in which the guarantee is to be met has been stated in the offer document.\"*\n\n---\n\n### Summary of Compliance Rules\n\nUnder **Regulation 38**, relationship managers, distributors, and asset management companies are strictly prohibited from promising assured or guaranteed returns to investors unless **all** of the following conditions are met:\n1. The returns are explicitly and fully backed by the sponsor or Asset Management Company (AMC).\n2. The guarantor's name is disclosed in the scheme offer document.\n3. The exact mechanism/manner by which the guarantee will be honored is stated in the offer document.\n\nAny verbal or written representation promising guaranteed fixed returns on market-linked mutual fund products outside of these explicit offer document disclosures constitutes mis-selling and a violation of SEBI regulations.\n\n---\n\n### Search Bounds & Audit Trace\n* **Search Query:** `guaranteed returns SEBI`\n* **Total Matching Count:** 37 regulatory clause chunks found (showing top 10 bounds).\n* **Source Document:** `RegulatoryDocs/SEBI/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-february-07-2023.pdf`",
+    "grounded_results": [
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_1996_V_38_a"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_1996_V_37_2_2"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_16_13_1_346"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_22_206"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_22_204"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_18_18_1_2_166"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_5_6_18_48"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_1996_V_38_c"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_1996_V_38_b"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_1996_V_38A_a"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_XVIII_84"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_VIII_45"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MASTER_CIRCULAR_MF_16_13_1_347"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_XVIII_0_3_b"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_VII_41_7"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_III_9_2"
+      },
+      {
+        "type": "regulation",
+        "id": "SEBI_MF_REGS_2026_III_12_3_d"
+      }
+    ],
+    "tool_calls_made": [
+      "search_regulations",
+      "search_regulations"
+    ],
+    "provider_used": "gemini"
+  },
+  "followup_turn_2": {
+    "error": 500
+  },
+  "limit_test": {
+    "response_text": "Investigation exceeded the maximum tool-call limit.",
+    "grounded_results": [],
+    "tool_calls_made": [],
+    "provider_used": "gemini"
+  }
+}

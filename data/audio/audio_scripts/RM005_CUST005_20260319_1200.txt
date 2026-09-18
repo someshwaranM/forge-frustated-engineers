@@ -1,0 +1,45 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM005_CUST005_20260319_1200.wav
+RM: RM005 — Rahul Desai
+Customer: CUST005 — Kavita Bhatt (Moderate, Low Investment Experience)
+Language: Tamil + English (code-mixed)
+Target Duration: ~50-65 seconds
+Ground-truth Severity: LOW
+Ground-truth Category: Ambiguous suitability (slight mismatch, low confidence —
+should route to manual review rather than auto-confirm)
+Product Discussed: PROD003 — Vigil Balanced Hybrid Fund (Medium Risk;
+suitable_risk_profiles = Moderate, Aggressive)
+Violation Notes: The product technically matches Kavita's Moderate risk_profile,
+but her Low investment experience isn't really accounted for in the pitch — a
+soft under-explanation rather than a clear suitability violation. This is
+intentionally borderline for the "ambiguous, low-confidence" test case.
+========================================================================
+(Tamil script with English code-mixing, English translation in brackets)
+
+[0:00] RM: Hi Kavita, Rahul here from Vigil Wealth. எப்படி இருக்கீங்க?
+       [Hi Kavita, Rahul here from Vigil Wealth. How are you?]
+
+[0:05] CUSTOMER: Hi Rahul, நல்லா இருக்கேன், சொல்லுங்க.
+       [Hi Rahul, I'm doing well, tell me.]
+
+[0:08] RM: Kavita, நான் Balanced Hybrid Fund பத்தி சொல்லலாம்னு நினைச்சேன். இது உங்க Moderate profile-க்கு fit ஆகும்.
+       [Kavita, I thought I'd tell you about the Balanced Hybrid Fund. This fits your Moderate profile.]
+
+[0:17] CUSTOMER: சரி, but நான் இதுக்கு முன்னாடி equity-ல invest பண்ணதே இல்லையே, இது கொஞ்சம் complicated-ஆ இருக்குமா?
+       [Okay, but I've never invested in equity before this, will this be a bit complicated?]
+
+[0:24] RM: Not really, it's a fairly standard fund. உங்க profile match ஆகுதுனா நான் நினைக்கிறேன், so we can go ahead.
+       [Not really, it's a fairly standard fund. I think it matches your profile, so we can go ahead.]
+
+[0:31] CUSTOMER: சரி, ஆனா நான் கொஞ்சம் small amount-ஓட start பண்ணலாமா?
+       [Okay, but can I start with a small amount?]
+
+[0:35] RM: Sure, that's fine, start small ஆவும் ok தான்.
+       [Sure, that's fine, starting small is okay too.]
+
+[0:38] CUSTOMER: சரி, போடுங்க அப்போ.
+       [Okay, go ahead then.]
+
+[0:40] RM: Great, நான் process பண்றேன் இப்போவே.
+       [Great, I'll process it right away.]

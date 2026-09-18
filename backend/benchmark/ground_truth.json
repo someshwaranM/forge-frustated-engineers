@@ -1,0 +1,64 @@
+{
+  "ground_truth": [
+    {
+      "call_id": "CALL_RM001_CUST001_20260310_1030",
+      "ground_truth_severity": "HIGH",
+      "ground_truth_category": "SUITABILITY_MISMATCH",
+      "note": "Conservative/Low-experience customer sold PROD005 (High-risk, Aggressive-only)."
+    },
+    {
+      "call_id": "CALL_RM001_CUST004_20260405_1145",
+      "ground_truth_severity": "MEDIUM",
+      "ground_truth_category": "GUARANTEED_RETURN",
+      "note": "Mild/implied return-assurance language, not an explicit numeric guarantee."
+    },
+    {
+      "call_id": "CALL_RM002_CUST002_20260318_0915",
+      "ground_truth_severity": "HIGH",
+      "ground_truth_category": "GUARANTEED_RETURN",
+      "note": "Explicit, unambiguous guaranteed-return claim (15%)."
+    },
+    {
+      "call_id": "CALL_RM002_CUST005_20260422_1400",
+      "ground_truth_severity": "CLEAN",
+      "ground_truth_category": null,
+      "note": "Fully compliant call — proper suitability, disclosure, KYC handling."
+    },
+    {
+      "call_id": "CALL_RM003_CUST003_20260212_1620",
+      "ground_truth_severity": "HIGH",
+      "ground_truth_category": "MISSING_DISCLOSURE",
+      "note": "Suitability is fine (Aggressive customer, High-risk product) — violation is skipping mandatory concentration-risk/risk-o-meter disclosure."
+    },
+    {
+      "call_id": "CALL_RM003_CUST003_20260630_1330",
+      "ground_truth_severity": "LOW",
+      "ground_truth_category": "AMBIGUOUS_RETURN_CLAIM",
+      "note": "Deliberately soft/hedged language ('should perform well') — tests against over-flagging. A CONFIRMED-LOW outcome is expected; a HIGH-severity outcome here would indicate over-flagging."
+    },
+    {
+      "call_id": "CALL_RM004_CUST004_20260228_1050",
+      "ground_truth_severity": "CLEAN",
+      "ground_truth_category": null,
+      "note": "Fully compliant call — correct suitability match, full disclosure, no guarantees."
+    },
+    {
+      "call_id": "CALL_RM004_CUST002_20260701_0930",
+      "ground_truth_severity": "MEDIUM",
+      "ground_truth_category": "MISSING_DISCLOSURE",
+      "note": "Suitability fine — partial/vague disclosure, not a total gap."
+    },
+    {
+      "call_id": "CALL_RM005_CUST005_20260319_1200",
+      "ground_truth_severity": "LOW",
+      "ground_truth_category": "AMBIGUOUS_SUITABILITY",
+      "note": "Product technically matches risk_profile but Low investment experience isn't accounted for. This is a genuine judgment call — either a CONFIRMED-LOW finding or a DISMISSED_NOT_GENUINE outcome from Phase 7 is an ACCEPTABLE result; do not score a DISMISSED outcome here as a false negative when computing recall — flag it separately as 'ambiguous case, judgment-dependent' in the report rather than folding it into the strict precision/recall numbers."
+    },
+    {
+      "call_id": "CALL_RM005_CUST001_20260815_1615",
+      "ground_truth_severity": "CLEAN",
+      "ground_truth_category": null,
+      "note": "Fully compliant — same customer as call #1, handled correctly by a different RM."
+    }
+  ]
+}

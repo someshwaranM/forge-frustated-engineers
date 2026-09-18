@@ -1,0 +1,75 @@
+{
+  "mappings": {
+    "properties": {
+      "finding_id": {
+        "type": "keyword"
+      },
+      "call_id": {
+        "type": "keyword"
+      },
+      "rm_id": {
+        "type": "keyword"
+      },
+      "customer_id": {
+        "type": "keyword"
+      },
+      "category": {
+        "type": "keyword"
+      },
+      "severity": {
+        "type": "keyword"
+      },
+      "confidence": {
+        "type": "float"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "timestamp_start": {
+        "type": "float"
+      },
+      "timestamp_end": {
+        "type": "float"
+      },
+      "transcript_evidence": {
+        "type": "text"
+      },
+      "customer_risk_profile": {
+        "type": "keyword"
+      },
+      "product_risk_class": {
+        "type": "keyword"
+      },
+      "regulation_chunk_id": {
+        "type": "keyword"
+      },
+      "regulation_citation_label": {
+        "type": "keyword"
+      },
+      "regulation_source_url": {
+        "type": "keyword"
+      },
+      "reasoning": {
+        "type": "text"
+      },
+      "recommended_action": {
+        "type": "text"
+      },
+      "provider_used": {
+        "type": "keyword"
+      },
+      "bm25_score": {
+        "type": "float"
+      },
+      "semantic_score": {
+        "type": "float"
+      },
+      "created_at": {
+        "type": "date"
+      },
+      "updated_at": {
+        "type": "date"
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "call_id": "CALL_RM003_CUST003_20260212_1620",
+  "customer_id": "CUST003",
+  "rm_id": "RM003",
+  "date_time": "2026-02-12T16:20:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD006",
+    "product_name": "Vigil Sectoral Thematic Fund",
+    "risk_class": "High",
+    "suitable_risk_profiles": [
+      "Aggressive"
+    ],
+    "matched_term": "sectoral thematic fund",
+    "confirmed_in_transactions": true
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260212_1620_01",
+      "category": "MISSING_DISCLOSURE",
+      "confidence_signal": "HIGH",
+      "detection_type": "DISCLOSURE_CHECK",
+      "summary": "Missing Risk Disclosure: RM recommended Vigil Sectoral Thematic Fund (PROD006, Risk Class: 'High') without providing ANY risk disclosure, risk-o-meter explanation, or market volatility warnings. Mandatory requirements: 'Risk-o-meter + concentration-risk disclosure + no-guaranteed-return disclosure mandatory.'.",
+      "details": {
+        "product_id": "PROD006",
+        "product_name": "Vigil Sectoral Thematic Fund",
+        "product_risk_class": "High",
+        "mandatory_requirements": "Risk-o-meter + concentration-risk disclosure + no-guaranteed-return disclosure mandatory.",
+        "missing_elements": [
+          "All risk disclosures (zero risk keywords detected in RM speech)"
+        ],
+        "matched_generic_keywords": []
+      },
+      "evidence": {
+        "rm_segments": [
+          {
+            "segment_id": "seg_1",
+            "start_time": 0.01,
+            "end_time": 3.71,
+            "text_english": "Hi Anjali, Vikram here from Vijayal Wealth. How are you?",
+            "text_original": "ஹாய் அஞ்சலி, விக்ரம் ஹியர் ஃப்ரம் விஜல் வெல்த். எப்படி இருக்கீங்க?"
+          },
+          {
+            "segment_id": "seg_3",
+            "start_time": 6.19,
+            "end_time": 13.15,
+            "text_english": "Anjali, I was thinking of talking about a sectoral thematic fund. It's recently in a very good momentum, do you know?",
+            "text_original": "அஞ்சலி, நான் ஒரு செக்டோரல் திமேட்டிக் ஃபண்ட் பத்தி சொல்லலாம்னு நினைச்சேன். இது ரீசன்ட்லி ரொம்ப நல்ல மொமெண்டம்ல இருக்கு, தெரியுமா?"
+          },
+          {
+            "segment_id": "seg_5",
+            "start_time": 19.57,
+            "end_time": 25.97,
+            "text_english": "This focuses on a specific high-growth sector. It's a perfect fit for aggressive investors, especially for those with a profile like yours.",
+            "text_original": "இது ஒரு ஸ்பெசிஃபிக் ஹை க்ரோத் செக்டர் ஃபோகஸ் பண்ணுது. அக்ரஸிவ் இன்வெஸ்டர்ஸ்க்கு பெர்ஃபெக்ட் ஃபிட் உங்க போல ப்ரொஃபைல் உள்ளவங்களுக்கு."
+          },
+          {
+            "segment_id": "seg_7",
+            "start_time": 28.85,
+            "end_time": 33.15,
+            "text_english": "I'm saying, it would be good if we put 3 lakhs. Shall I go ahead and process it right now?",
+            "text_original": "நான் சொல்றேன், 3 லாக்ஸ் போட்டா நல்லா இருக்கும். ஷல் ஐ கோ அஹெட் அண்ட் ப்ராசஸ் இட் ரைட் நவ்?"
+          },
+          {
+            "segment_id": "seg_9",
+            "start_time": 35.29,
+            "end_time": 37.63,
+            "text_english": "Great, I'll process the transaction right now.",
+            "text_original": "கிரேட், நான் இப்பவே ட்ரான்ஸாக்ஷன் ப்ராசஸ் பண்றேன்."
+          },
+          {
+            "segment_id": "seg_11",
+            "start_time": 39.27,
+            "end_time": 40.97,
+            "text_english": "Thank you Anjali, have a good day.",
+            "text_original": "தேங்க்யூ அஞ்சடி, ஹேவ் எ குட் டே."
+          }
+        ],
+        "rm_segments_evaluated": 6,
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_58",
+          "citation_label": "SEBI Master Circular MF §3, p.97",
+          "bm25_score": 37.224,
+          "semantic_score": 0.8194,
+          "clause_text": "6.16.2. \nRisk value of commodities for risk-o-meter139: For evaluation of risk \nvalue of commodities in which mutual funds are permitted to invest, in \nterms of Paragraph 6.16.1(g), investment in commodities by mutual fund \nschemes shall be assigned a risk score corresponding to the annualized \nvolatility of the price of the said commodity. The annualized volatility \nshall be computed quarterly based on past 15 years’ prices of \nbenchmark index of the said commodity and risk score for the \ncommodity shall be in terms of the following table: \nAnnualized volatility \nRisk value on risk-o-meter (Risk) \n<10% \n3 (Moderate) \n10-15% \n4 (Moderately High) \n15-20% \n5 (High) \n>20% \n6 (Very high) \nIllustration: If price of gold has annualized volatility of 18% based on price \nof gold of past 15 years, then Gold and gold related instruments will have \nrisk value of 5 (High) on risk-o-meter.  \n6.16.3. \nProduct label shall be disclosed in: \n(a) \nFront page of initial offering application forms, SID and KIM. \n(b) \nCommon application form – along with the information about the \nscheme.  \n(c) \nThe product label with respect to Paragraph 6.16.3(a) & 6.16.3.(b) \nshall be placed in proximity to the caption of the scheme and shall \nbe prominently visible. \n(d) \nScheme advertisements - placed in a manner so as to be \nprominently visible to investors. \n6.16.4. \nChange in risk-o-meter shall not be considered as a Fundamental \nAttribute Change of the scheme in terms of Regulation 22(9)(c). \n6.17. Risk-O-Meter related disclosures \n6.17.1. \n140Mutual Funds/AMCs shall include the following in all disclosures, \nincluding promotional material or any other disclosures stipulated by the \nBoard: \n139 SEBI Circular no. SEBI/HO/IMD/IMD-II DOF3/P/CIR/2022/49 dated April 11, 2022 \n140 SEBI/HO/IMD/IMD-II DOF3/P/CIR/2021/621 dated August 31, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(a) \nrisk-o-meter of the scheme wherever the performance of the \nscheme is disclosed \n(b) \nrisk-o-meter of the scheme and benchmark wherever the \nperformance of the scheme vis-à-vis that of the benchmark is \ndisclosed.  \n6.17.2. \nAMCs shall disclose risk-o-meter of the scheme and benchmark on: \n(a) \nFront page of initial offering application form, SID and KIM; and  \n(b) \nCommon application form – along with the information about the \nscheme141.  \n6.17.3. \nThe disclosure requirement of the risk-o-meter of benchmark is \napplicable for primary benchmark which is specified in the SID. \n6.17.4. \nFor international benchmarks, risk-o-meter score may be assigned in \nline with risk-o-meter score assigned to foreign securities as specified in \nParagraph 6.16 of this Master Circular. \n6.17.5. \nAMCs shall enter into arrangements with their selected Index providers \nto provide the risk-o-meter for their benchmarks to the AMCs latest by \nthe 5th calendar day of the succeeding month. \n6.18. Potential Risk Class (PRC) Matrix142    \n6.18.1. \nAll debt mutual fund schemes shall be classified in terms of a PRC \nmatrix consisting of parameters based on maximum interest rate risk \n(measured by Macaulay Duration (MD) of the scheme) and maximum \ncredit risk (measured by Credit Risk Value (CRV) of the scheme).",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 97
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_57",
+          "citation_label": "SEBI Master Circular MF §3, p.94",
+          "bm25_score": 34.6876,
+          "semantic_score": 0.8188,
+          "clause_text": "6.14.2. \nThe AMCs shall include the aforesaid report in their annual reports, as \npart of the Report of the Trustees. \n6.14.3. \nFurther, in order to facilitate awareness amongst investors about various \nactivities related to mutual fund investments, the Board has prepared an \nInvestor Charter, provided at Format No. 9D, for Mutual Funds, inter-\nalia, detailing the services provided to Investors, Rights of Investors, \nvarious activities of Mutual Funds with timelines, DOs and DON’Ts for \nInvestors and Grievance Redressal Mechanism.  \n6.14.4. \nMutual Funds shall bring the Investor Charter for Mutual Funds to the \nnotice of their unit holders (existing as well as new unit holders) by \ndisclosing the Investor Charter on their websites, making them available \nat prominent places in the office, etc.  \n6.14.5. \nFurther, Mutual Funds shall display link/option to lodge complaint with \nthem directly on their websites and mobile apps. Additionally, link to \nSCORES website/ link to download mobile app (SEBI SCORES) shall \nalso be provided on their website. \n6.15. Brokerage and commission paid to associates132  \n6.15.1. \nBrokerage and commission paid to associates/related parties/group \ncompanies of sponsor/AMC shall be disclosed in the unaudited half \nyearly financial results, the abridged scheme wise annual report and the \nSAI, as per Format No. 7B. \n6.16. Product Labelling in Mutual Funds133    \n6.16.1. \nAll the mutual funds shall ‘Label’ their schemes on the parameters as \nmentioned under: \n(a) \nNature of scheme such as to create wealth or provide regular \nincome in an indicative time horizon (short/ medium/ long term). \n(b) \nA brief about the investment objective (in a single line sentence) \nfollowed by kind of product in which investor is investing \n(Equity/Debt). \n(c) \nThe depiction of risk shall be through pictorial meter named \n\"Riskometer\" and this meter shall appropriately depict the level of \nrisk in any specific scheme.  \n(d) \nRisk-o-meter shall have following six levels of risk for mutual funds \n[with the given colour scheme134   \n132 SEBI Circular No. SEBI/IMD/CIR No 18/198647/2010 dated March 15, 2010 \n133 SEBI Circular No. CIR/IMD/DF/5/2013 dated March 18, 2013 \n134 SEBI Circular No. CIR/IMD/DF/4/2015 dated April 30, 2015, Circular No. SEBI/HO/IMD/DF3/CIR/P/2020/197 Dated October \n05, 2020 and SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(i) \nLow risk- Irish Green [#08A04B]135  \n(ii) \nLow to Moderate risk- Chartreuse [#7FFF00] \n(iii) Moderate risk- Neon Yellow [#FFFF33] \n(iv) Moderately High risk-Caramel [#C68E17] \n(v) \nHigh – risk-Dark Orange [#FF8C00]  \n(vi) Very High risk.- Red [#F70D1A] \n(e) \nThe above given colour scheme of risk-o-meter shall be applicable \nfor \nall \ndigital \nand \npolychrome \nprinted \npromotion \nmaterials/disclosures for the schemes. \n(f) \nRiskometer: Risk level of the scheme shall be depicted by “Risk-o-\nmeter”, as given below136: \nThe risk of the scheme/benchmark is [level of risk] \nFor example, the risk depicted in the above risk-o-meter is \nModerately High. \n(g) \nThe detailed guidelines for evaluation of risk levels of a scheme \nalong with few examples are provided at Annexure 10137. \nPursuant to calculation of risk value of the scheme portfolio based \non the methodology specified in Annexure 10, risk level of a \nscheme as mentioned at Table 11 of Annexure 10 shall be \ndepicted by risk-o-meter shown above at Paragraph 6.16.1(f).  \n(h) \nBased on the scheme characteristics, Mutual Funds shall assign \nrisk level for schemes at the time of launch of scheme/NFO.  \n(i) \nAny change in risk-o-meter of the scheme or its benchmark shall \nbe communicated by way of Notice cum Addendum and by way of \nan e-mail or SMS to unitholders of that particular scheme. The \n135 HTML Color Code \n136 SEBI Circular no. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \n137 SEBI Circular no. SEBI/HO/IMD/DF3/CIR/P/ 2020/197 dated October 05, 2020, Refer SEBI letter no. SEBI/HO/IMD-\nII/DOF3/OW/P/2021/1566/1 dated January 19, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\nformat for disclosure of change in Risk-o-meter shall be as \nunder138: \nName of \nthe \nScheme(s\n) \nExisting Risk-o-meter of \nScheme/Benchmark \nRevised Risk-o-meter of \nScheme/Benchmark \nXXXX \nLarge and \nMidcap \nFund \nThe risk of the scheme is \nmoderately high \nThe risk of the scheme is very \nhigh] \n(j) \nRisk-o-meter shall be evaluated on a monthly basis and Mutual \nFunds/AMCs shall disclose the Risk-o-meter along with portfolio \ndisclosure for all their schemes on their respective website and on \nAMFI website within 10 calendar days from the close of each \nmonth.  \n(k) \nMutual Funds shall disclose the risk level of schemes as on March \n31 of every year, along with number of times the risk level has \nchanged over the year, on their website and AMFI website.  \n(l) \nMutual Funds shall publish the following table of scheme wise \nchanges in Risk-o-meter in scheme wise Annual Reports and \nAbridged summary: \nScheme \nname  \nRisk-o-meter \nlevel at start \nof \nthe \nfinancial year  \nRisk-o-meter \nlevel at end of \nthe financial \nyear \nNumber \nof \nchanges \nin \nRisk-o-meter \nduring \nthe \nfinancial year \n(m) A disclaimer shall be given stating that investors should consult \ntheir financial advisers if they are not clear about the suitability of \nthe product.  \n138 SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 94
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_16_13_11_354",
+          "citation_label": "SEBI Master Circular MF §13.11, p.641",
+          "bm25_score": 30.7948,
+          "semantic_score": 0.0,
+          "clause_text": "1. Derivative strategies \n2. Swing Pricing  \n3. Provisions on creation of Segregated portfolio/Side pocketing  \n4. Short selling / stock lending \nH. Transaction Charges and Stamp Duty  \nX. DISCLOSURES AND REPORTS BY THE FUND \n1. Account Statement/Consolidated Account Statement \n2. Monthly Portfolio Disclosures/Financial Results \n3. Half Yearly Results \n4. Annual Report \nNotwithstanding anything contained in this Statement of Additional Information, the \nprovisions of the SEBI (Mutual Funds) Regulations, 2026 and the guidelines thereunder shall \nbe applicable. \nInstruction:  \nA Mutual Fund is free to add any other disclosure, which in the opinion of the Trustees of the Mutual \nFund (Trustees) or the Asset Management Company (AMC) is material, provided that such \ninformation is not presented in an incomplete, inaccurate or misleading manner. Care should be taken \nto ensure that inclusion of such information does not, by virtue of its nature, or manner of presentation, \nobscure or impede understanding of any information that is required to be included under the Scheme \nInformation Document and Statement of Additional Information. \nNote:  \nThe wording in italics is explanatory commentary/instructions.  \nThe words in Arial font are the text to be used in the Statement of Additional Information, as \napplicable.  \n***** \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nC. KEY INFORMATION MEMORANDUM (KIM)527 \nNAME OF THE SCHEME \n(Type of the Scheme) \n1. Name and type of the scheme to be aligned with SEBI Circulars on Categorization and \nRationalization of Mutual Fund Schemes, \n2. As per SEBI Circulars on Potential Risk Class (PRC) Matrix for debt schemes, type of scheme \nto include PRC description  \n3. As per SEBI Circulars on Potential Risk Class (PRC) Matrix for debt schemes, the PRC matrix \nalong with the mark for the cell in which the scheme resides shall be disclosed on front page \nof Key Information Memorandum. \n4. For Index Funds / Index ETF - Name of scheme shall include complete name of underlying \nIndex. \n5. In case of FOF’s where single fund is underlying (Feeder Funds): To include the complete \nname of the underlying fund in the name of the scheme. \n6. Product Labelling and Risk-o-meter of the Scheme and Benchmark should be disclosed.  \n7. In case the scheme is listed/proposed to be listed (ETFs/close ended etc.), the Scrip Code \nissued by the stock exchange after listing to be mentioned below the Scheme Name.  \nThis product is suitable \nScheme \nRiskometer \nBenchmark Riskometer (as \nfor \ninvestors who are \napplicable) \nseeking*: \nAs per AMFI Tier I \nBenchmark i.e. ……………… \n(as applicable) \n \nThe above product labelling assigned during the New Fund Offer (NFO) is based on internal \nassessment of the scheme characteristics or model portfolio and the same may vary post NFO \nwhen the actual investments are made. \n527 SEBI/IMD/CIR No. 5/126096/08 dated May 23, 2008 \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nOffer for Units of Rs. -- Per Unit for cash during the \nNew fund Offer Period and at NAV based prices upon re-opening \nNew Fund Offer Opens on: \nNew Fund Offer Closes on: \nScheme Re-opens for continuous sale and\nrepurchase on: \nName of Mutual Fund                                  : \nName of Asset Management Company          : \nName of Trustee Company                            : \nAddresses, Website of the entities \nThis Key Information Memorandum (KIM) sets forth the information, which a prospective investor \nought to know before investing. For further details of the scheme/Mutual Fund, due diligence \ncertificate by the AMC, Key Personnel, investors’ rights & services, risk factors, ,penalties & \npending litigations etc. investors should, before investment, refer to the Scheme Information \nDocument and Statement of Additional Information available free of cost at any of the Investor \nService Centres or distributors or from the website www. -----. \nThe Scheme particulars have been prepared in accordance with Securities and \nExchange Board of India (Mutual Funds) Regulations 2026, as amended till date, and \nfiled with Securities and Exchange Board of India (SEBI). The units being offered for \npublic subscription have not been approved or disapproved by SEBI, nor has SEBI \ncertified the accuracy or adequacy of this KIM. \nThis Key Information Memorandum is dated _______ .  \nInvestment Objective \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nThis includes asset allocation table giving the broad classifica\ntion of assets and indicative exposure level in percentage ter\nms. The asset allocation should be consistent with the invest\nment objective of the scheme and SEBI circulars on Categori\nzation and Rationalization of Mutual Fund Schemes. \nAsset Allocation Pattern \nof the scheme \nIndicative allocations (% of \ntotal assets) \nMaximum \nMinimum \nInstrume\nnts \n Percentage of investment in overseas securities, derivatives \nfor non-hedging purposes, stock lending, securitized debt, Debt \ninstruments with special features (AT 1 and AT 2 Bonds), Debt \nInstruments with SO / CE and InVITs, Tri-party repos, other \nmutual funds, repo/ reverse repo transactions in corporate debt \nsecurities, Credit Default Swaps, covered call option etc). to be \nindicated. \n In case the Scheme does not intend to invest in these securities, \nnegative confirmation in a table format should be provided for \nsecurities / instruments in which the scheme will not invest. \n Cumulative gross exposure limits to be adhered in terms of \nMaster Circular for Mutual Funds \n Any other information/disclosure to be added as per applicable \nConsolidated checklist of standard observations. \nFormats for Master Circular for Mutual Funds as on March 20, 2026 \nBack to Formats Index                                                                                       Back to Main Index \n\nIndicative Table (Actual instrument/percentages may vary subject t\no applicable SEBI circulars) \nSl. no \nType of Instrument \nPercentage \nof \nexposure \nMaster \nCircular\nreferences*",
+          "heading": "of SEBI Master Circular for Mutual Funds), the",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 641
+        }
+      ]
+    }
+  ],
+  "detection_completed_at": "2026-09-18T07:45:10.233196+00:00",
+  "generated_at": "2026-09-18T07:45:10.233196+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "call_id": "CALL_RM004_CUST004_20260228_1050",
+  "customer_id": "CUST004",
+  "rm_id": "RM004",
+  "date_time": "2026-02-28T10:50:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD002",
+    "product_name": "Vigil Short Duration Debt Fund",
+    "risk_class": "Low",
+    "suitable_risk_profiles": [
+      "Conservative",
+      "Moderate",
+      "Aggressive"
+    ],
+    "matched_term": "short duration debt fund",
+    "confirmed_in_transactions": true
+  },
+  "candidate_count": 0,
+  "candidates": [],
+  "detection_completed_at": "2026-09-15T11:27:24.188809+00:00",
+  "generated_at": "2026-09-15T11:27:24.188809+00:00"
+}

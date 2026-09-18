@@ -1,0 +1,105 @@
+{
+  "mappings": {
+    "properties": {
+      "chunk_id": {
+        "type": "keyword"
+      },
+      "chunk_level": {
+        "type": "keyword"
+      },
+      "document_id": {
+        "type": "keyword"
+      },
+      "document_name": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "regulator": {
+        "type": "keyword"
+      },
+      "document_type": {
+        "type": "keyword"
+      },
+      "document_version": {
+        "type": "keyword"
+      },
+      "publication_date": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "effective_date": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "effective_until": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "priority": {
+        "type": "integer"
+      },
+      "source_url": {
+        "type": "keyword"
+      },
+      "source_file": {
+        "type": "keyword"
+      },
+      "source_file_hash": {
+        "type": "keyword"
+      },
+      "chapter": {
+        "type": "keyword"
+      },
+      "section": {
+        "type": "keyword"
+      },
+      "sub_section": {
+        "type": "keyword"
+      },
+      "regulation_number": {
+        "type": "keyword"
+      },
+      "clause": {
+        "type": "keyword"
+      },
+      "paragraph": {
+        "type": "keyword"
+      },
+      "heading": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "citation_label": {
+        "type": "keyword"
+      },
+      "clause_text": {
+        "type": "text"
+      },
+      "chunk_text": {
+        "type": "text"
+      },
+      "chunk_text_semantic": {
+        "type": "semantic_text",
+        "inference_id": ".jina-embeddings-v5-text-small"
+      },
+      "page_number": {
+        "type": "integer"
+      },
+      "indexed_at": {
+        "type": "date",
+        "format": "strict_date_time"
+      }
+    }
+  }
+}

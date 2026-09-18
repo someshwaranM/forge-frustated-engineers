@@ -1,0 +1,75 @@
+{
+  "call_id": "CALL_RM001_CUST004_20260405_1145",
+  "customer_id": "CUST004",
+  "rm_id": "RM001",
+  "date_time": "2026-04-05T11:45:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD002",
+    "product_name": "Vigil Short Duration Debt Fund",
+    "risk_class": "Low",
+    "suitable_risk_profiles": [
+      "Conservative",
+      "Moderate",
+      "Aggressive"
+    ],
+    "matched_term": "short duration debt fund",
+    "confirmed_in_transactions": true
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "CAND_CALL_RM001_CUST004_20260405_1145_01",
+      "category": "GUARANTEED_RETURN",
+      "confidence_signal": "MEDIUM",
+      "detection_type": "DETERMINISTIC_RULES",
+      "summary": "RM made return assurance / guaranteed return claim (completely safe): 'completely safe'.",
+      "evidence": {
+        "matched_phrase": "completely safe",
+        "rm_segments": [
+          {
+            "segment_id": "seg_5",
+            "start_time": 13.23,
+            "end_time": 21.27,
+            "text_english": "Absolutely sir, you can rest assured. There is no chance of you incurring a loss in this. The money will remain completely safe. Good, it was nice to hear that."
+          }
+        ],
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "SEBI_MF_REGS_1996_V_37_2_2",
+          "citation_label": "SEBI MF Regs 1996 §Reg.37(2), p.41",
+          "bm25_score": 20.2837,
+          "semantic_score": 0.9379,
+          "clause_text": "(2) The asset management company shall, on production of instrument of transfer together\nwith relevant unit certificates, register the transfer and return the unit certificate to the \ntransferee within thirty days from the date of such production: \nProvided that if the units are with the depository such units will be transferable in \naccordance with the provisions of 153[the Securities and Exchange Board of India \n(Depositories and Participants) Regulations, 2018]. \nGuaranteed returns",
+          "heading": "(1) 151[A unit] unless otherwise restricted or prohibited under the scheme, shall be freely",
+          "source_file": "RegulatoryDocs/SEBI/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-february-07-2023.pdf",
+          "page_number": 41
+        },
+        {
+          "chunk_id": "SEBI_MF_REGS_1996_V_38_a",
+          "citation_label": "SEBI MF Regs 1996 §Reg.38(a), p.41",
+          "bm25_score": 18.8333,
+          "semantic_score": 0.9326,
+          "clause_text": "(a) unless such returns are fully guaranteed by the sponsor or the asset management\ncompany; \n148 Inserted by the SEBI (Mutual Funds) (Third Amendment) Regulations, 2011, w.e.f. 30-8-2011. \n149 Substituted for “on or before tenth day of succeeding month” by the SEBI (Mutual Funds) (Amendment) \nRegulations, 2021, w.e.f. 5-3-2021. \n150 Ibid. \n151 Substituted by the SEBI (Mutual Funds) (Amendment) Regulations, 2009, w.e.f. 8-4-2009, for the words \n‘A unit certificate’. \n152 Inserted ibid. \n153 Substituted for “the Securities and Exchange Board of India (Depositories and Participants) Regulations, \n1996” by the SEBI (Mutual Funds) (Amendment) Regulations, 2021, w.e.f. 5-3-2021.",
+          "heading": "No guaranteed return shall be provided in a scheme,—",
+          "source_file": "RegulatoryDocs/SEBI/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-february-07-2023.pdf",
+          "page_number": 41
+        },
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_h",
+          "citation_label": "AMFI Distributor Code §II.4.h, p.5",
+          "bm25_score": 36.0123,
+          "semantic_score": 0.0,
+          "clause_text": "h. MFDs engaged in providing other financial services in addition to distribution of mutual\nfund products, where other financial products with assured return are being offered to \nclients, MFDs and their employees shall ensure that they do not mis-sell mutual fund \nproducts on the basis of indicative or assured return or regular income to the customers \nseeking to make investments. It shall be explained to the clients that  MF investments \nare not  guaranteed or assured return products and that the principal amount may be \nexposed to risk of loss.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 5
+        }
+      ]
+    }
+  ],
+  "detection_completed_at": "2026-09-15T11:27:20.641401+00:00",
+  "generated_at": "2026-09-15T11:27:20.641401+00:00"
+}

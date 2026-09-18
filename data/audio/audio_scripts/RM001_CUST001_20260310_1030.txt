@@ -1,0 +1,36 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM001_CUST001_20260310_1030.wav
+RM: RM001 — Arjun Mehta
+Customer: CUST001 — Meena Iyer (Conservative, Low Investment Experience)
+Language: English
+Target Duration: ~90-100 seconds
+Ground-truth Severity: HIGH
+Ground-truth Category: Suitability Mismatch
+Product Discussed: PROD005 — Vigil Small Cap Equity Fund (High Risk, suitable_risk_profiles = Aggressive only)
+Violation Notes: RM recommends a High-risk, Aggressive-only product to a Conservative,
+Low-experience customer, without conducting a real suitability assessment and while
+downplaying the risk despite the customer signaling discomfort.
+========================================================================
+
+[0:00] RM: Good morning, Mrs. Iyer! This is Arjun from Vigil Wealth. Thank you for taking my call.
+
+[0:06] CUSTOMER: Good morning, Arjun. Yes, go ahead.
+
+[0:09] RM: I wanted to talk to you about a fantastic opportunity — our Small Cap Equity Fund has been one of our best performers this year. A lot of our clients have seen really strong growth in it.
+
+[0:20] CUSTOMER: Small cap... isn't that quite risky? I usually prefer safer options, you know that. I've always kept my money in fixed deposits and liquid funds.
+
+[0:29] RM: I understand, but honestly, in this market, staying too safe means you're missing out. Small caps have given much higher returns than anything else this year. I really think you should put at least two lakhs into this.
+
+[0:41] CUSTOMER: I don't know... I've never really invested in equity before. I'm a bit nervous about market ups and downs.
+
+[0:48] RM: Don't worry too much about that, Mrs. Iyer. Yes, there will be some fluctuation, but over time it evens out. Given how well this fund has been doing, I wouldn't be too concerned. I can go ahead and process this for you today.
+
+[1:01] CUSTOMER: If you think it's fine... I do trust your judgment, Arjun.
+
+[1:05] RM: Absolutely, trust me on this one. I'll get the paperwork moving and we'll get you started with the small cap fund right away.
+
+[1:12] CUSTOMER: Okay, sounds good. Thank you.
+
+[1:14] RM: Thank you, Mrs. Iyer. Talk soon.

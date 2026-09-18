@@ -1,0 +1,218 @@
+{
+  "call_id": "CALL_RM003_CUST003_20260630_1330",
+  "customer_id": "CUST003",
+  "rm_id": "RM003",
+  "date_time": "2026-06-30T13:30:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD007",
+    "product_name": "Vigil Multi Asset Allocation Fund",
+    "risk_class": "Medium",
+    "suitable_risk_profiles": [
+      "Moderate",
+      "Aggressive"
+    ],
+    "matched_term": "multi asset allocation fund",
+    "confirmed_in_transactions": false
+  },
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_01",
+      "category": "AMBIGUOUS_RETURN_CLAIM",
+      "confidence_signal": "LOW",
+      "detection_type": "DETERMINISTIC_RULES",
+      "summary": "RM used soft/hedged return prediction language (should perform well): 'should perform well'.",
+      "evidence": {
+        "matched_phrase": "should perform well",
+        "rm_segments": [
+          {
+            "segment_id": "seg_3",
+            "start_time": 10.79,
+            "end_time": 18.77,
+            "text_english": "I wanted to flag a multi-asset allocation fund we've just added. Given the market mood right now, I think this should perform well over the next year also."
+          }
+        ],
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_g",
+          "citation_label": "AMFI Distributor Code §II.4.g, p.5",
+          "bm25_score": 27.5811,
+          "semantic_score": 0.9201,
+          "clause_text": "g. MFDs shall (i) not provide any indicative portfolio or indicative yield or indicative return\nfor any particular scheme or transaction and (ii) abstain from indicating or assuring \nreturns for any particular scheme or transaction.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 5
+        },
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_h",
+          "citation_label": "AMFI Distributor Code §II.4.h, p.5",
+          "bm25_score": 26.4712,
+          "semantic_score": 0.0,
+          "clause_text": "h. MFDs engaged in providing other financial services in addition to distribution of mutual\nfund products, where other financial products with assured return are being offered to \nclients, MFDs and their employees shall ensure that they do not mis-sell mutual fund \nproducts on the basis of indicative or assured return or regular income to the customers \nseeking to make investments. It shall be explained to the clients that  MF investments \nare not  guaranteed or assured return products and that the principal amount may be \nexposed to risk of loss.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 5
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_14_141",
+          "citation_label": "SEBI Master Circular MF §14, p.235",
+          "bm25_score": 23.5552,
+          "semantic_score": 0.0,
+          "clause_text": "14.3. Disclosure of Performance of Schemes post-merger350: \n14.3.1. \nDisclosure of performance of schemes post-merger shall be as given \nbelow \n(a) \nWhen two schemes, for example, Scheme A (Transferor Scheme) \n& Scheme B (Transferee Scheme), having similar features, get \nmerged and the merged scheme i.e., surviving scheme also has \nthe same features, the weighted average performance of both the \nschemes needs to be disclosed. \n(b) \nWhen Scheme A (Transferor Scheme) gets merged into Scheme \nB (Transferee Scheme) and the features of Scheme A/ Scheme B \nare retained, the performance of the scheme whose features are \nretained needs to be disclosed. \n(c) \nWhen Scheme A (Transferor Scheme) gets merged with Scheme \nB (Transferee Scheme) and a new scheme, Scheme C emerges \nafter such consolidation or merger of schemes, the past \nperformance need not be provided. \n14.3.2. \nIn addition to disclosing the performance of the scheme as mentioned \nabove, past performance of such scheme(s) whose features are not \nretained post-merger may also be made available on request with \nadequate disclaimer. \n14.4. Indicative portfolios and yields in mutual funds schemes351 \n14.4.1. \nMutual Funds, AMCs and distributors shall not offer any indicative \nportfolio and indicative yield, and no communication in this regard in any \nmanner whatsoever shall be issued. The compliance of the same shall \nbe monitored by the AMC and Trustees of Mutual Funds and reported \nin their respective reports to the Board. \n14.5. Indicative portfolio or yield in close ended debt oriented mutual fund \nschemes352  \n350 SEBI Circular No- SEBI/HO/IMD/DF3/CIR/P/2018/69 dated April 12, 2018 \n351 SEBI Circular No.  IMD/CIR No. 14/151044/09 dated January 19, 2009 \n352 SEBI Circular No. CIR/IMD/DF/12/2011 dated August 01, 2011 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n14.5.1. \nMutual Funds /AMCs shall make following additional disclosures in the \nSID/SAI and KIM without indicating the portfolio or yield, directly or \nindirectly: \n(a) \ncredit evaluation policy for the investments in debt securities. \n(b) \nthe list of sectors they would not be investing. \n(c) \nthe type of instruments which the schemes propose to invest viz. \nCPs, CDs, Treasury bills etc. \n(d) \nthe floors and ceilings within a range of 5% of the intended \nallocation (in %) against each sub asset class/credit rating. For \nexample, it may be disclosed that x-y % would be in AAA rated \nbank CD as per the sample matrix below:  \n14.6. After the closure of NFO, the AMCs shall report in the next meeting of AMCs \nand Trustees the publicized percentage allocation and the final portfolio. \nVariations between indicative portfolio allocation and final portfolio shall not \nbe permissible. \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "ADVERTISEMENTS344",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 235
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_02",
+      "category": "AMBIGUOUS_RETURN_CLAIM",
+      "confidence_signal": "LOW",
+      "detection_type": "DETERMINISTIC_RULES",
+      "summary": "RM used soft/hedged return prediction language (lean towards doing well): 'lean towards it doing reasonably well'.",
+      "evidence": {
+        "matched_phrase": "lean towards it doing reasonably well",
+        "rm_segments": [
+          {
+            "segment_id": "seg_5",
+            "start_time": 24.09,
+            "end_time": 34.71,
+            "text_english": "Well, nothing certain of course, but based on how multi-asset funds have generally behaved in similar conditions, I'd lean towards it doing reasonably well. It's not a small allocation, so worth considering."
+          }
+        ],
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_g",
+          "citation_label": "AMFI Distributor Code §II.4.g, p.5",
+          "bm25_score": 27.5811,
+          "semantic_score": 0.9201,
+          "clause_text": "g. MFDs shall (i) not provide any indicative portfolio or indicative yield or indicative return\nfor any particular scheme or transaction and (ii) abstain from indicating or assuring \nreturns for any particular scheme or transaction.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 5
+        },
+        {
+          "chunk_id": "AMFI_MFD_COC_2022_II_4_h",
+          "citation_label": "AMFI Distributor Code §II.4.h, p.5",
+          "bm25_score": 26.4712,
+          "semantic_score": 0.0,
+          "clause_text": "h. MFDs engaged in providing other financial services in addition to distribution of mutual\nfund products, where other financial products with assured return are being offered to \nclients, MFDs and their employees shall ensure that they do not mis-sell mutual fund \nproducts on the basis of indicative or assured return or regular income to the customers \nseeking to make investments. It shall be explained to the clients that  MF investments \nare not  guaranteed or assured return products and that the principal amount may be \nexposed to risk of loss.",
+          "heading": "Client related obligations",
+          "source_file": "RegulatoryDocs/AMFI/Revised_Codeof_Conductfor_Mutual_Fund_Distributors_April2022.pdf",
+          "page_number": 5
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_14_141",
+          "citation_label": "SEBI Master Circular MF §14, p.235",
+          "bm25_score": 23.5552,
+          "semantic_score": 0.0,
+          "clause_text": "14.3. Disclosure of Performance of Schemes post-merger350: \n14.3.1. \nDisclosure of performance of schemes post-merger shall be as given \nbelow \n(a) \nWhen two schemes, for example, Scheme A (Transferor Scheme) \n& Scheme B (Transferee Scheme), having similar features, get \nmerged and the merged scheme i.e., surviving scheme also has \nthe same features, the weighted average performance of both the \nschemes needs to be disclosed. \n(b) \nWhen Scheme A (Transferor Scheme) gets merged into Scheme \nB (Transferee Scheme) and the features of Scheme A/ Scheme B \nare retained, the performance of the scheme whose features are \nretained needs to be disclosed. \n(c) \nWhen Scheme A (Transferor Scheme) gets merged with Scheme \nB (Transferee Scheme) and a new scheme, Scheme C emerges \nafter such consolidation or merger of schemes, the past \nperformance need not be provided. \n14.3.2. \nIn addition to disclosing the performance of the scheme as mentioned \nabove, past performance of such scheme(s) whose features are not \nretained post-merger may also be made available on request with \nadequate disclaimer. \n14.4. Indicative portfolios and yields in mutual funds schemes351 \n14.4.1. \nMutual Funds, AMCs and distributors shall not offer any indicative \nportfolio and indicative yield, and no communication in this regard in any \nmanner whatsoever shall be issued. The compliance of the same shall \nbe monitored by the AMC and Trustees of Mutual Funds and reported \nin their respective reports to the Board. \n14.5. Indicative portfolio or yield in close ended debt oriented mutual fund \nschemes352  \n350 SEBI Circular No- SEBI/HO/IMD/DF3/CIR/P/2018/69 dated April 12, 2018 \n351 SEBI Circular No.  IMD/CIR No. 14/151044/09 dated January 19, 2009 \n352 SEBI Circular No. CIR/IMD/DF/12/2011 dated August 01, 2011 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n14.5.1. \nMutual Funds /AMCs shall make following additional disclosures in the \nSID/SAI and KIM without indicating the portfolio or yield, directly or \nindirectly: \n(a) \ncredit evaluation policy for the investments in debt securities. \n(b) \nthe list of sectors they would not be investing. \n(c) \nthe type of instruments which the schemes propose to invest viz. \nCPs, CDs, Treasury bills etc. \n(d) \nthe floors and ceilings within a range of 5% of the intended \nallocation (in %) against each sub asset class/credit rating. For \nexample, it may be disclosed that x-y % would be in AAA rated \nbank CD as per the sample matrix below:  \n14.6. After the closure of NFO, the AMCs shall report in the next meeting of AMCs \nand Trustees the publicized percentage allocation and the final portfolio. \nVariations between indicative portfolio allocation and final portfolio shall not \nbe permissible. \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "ADVERTISEMENTS344",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 235
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260630_1330_03",
+      "category": "MISSING_DISCLOSURE",
+      "confidence_signal": "MEDIUM",
+      "detection_type": "DISCLOSURE_CHECK",
+      "summary": "Inadequate / Partial Risk Disclosure: RM mentioned general risk keywords (nothing certain, fund details) for Vigil Multi Asset Allocation Fund (PROD007), but omitted mandatory product-specific disclosures: [risk-o-meter]. Required: 'Risk-o-meter + multi-asset-allocation disclosure required.'.",
+      "details": {
+        "product_id": "PROD007",
+        "product_name": "Vigil Multi Asset Allocation Fund",
+        "product_risk_class": "Medium",
+        "mandatory_requirements": "Risk-o-meter + multi-asset-allocation disclosure required.",
+        "missing_elements": [
+          "risk-o-meter"
+        ],
+        "matched_generic_keywords": [
+          "nothing certain",
+          "fund details"
+        ]
+      },
+      "evidence": {
+        "rm_segments": [
+          {
+            "segment_id": "seg_1",
+            "start_time": 0.01,
+            "end_time": 5.69,
+            "text_english": "Hi Anjali, Vikram again. Following up on the sectoral fund from a few months back, how is it looking so far?",
+            "text_original": "Hi Anjali, Vikram again. Following up on the sectoral fund from a few months back, how is it looking so far?"
+          },
+          {
+            "segment_id": "seg_3",
+            "start_time": 10.79,
+            "end_time": 18.77,
+            "text_english": "I wanted to flag a multi-asset allocation fund we've just added. Given the market mood right now, I think this should perform well over the next year also.",
+            "text_original": "I wanted to flag a multi-asset allocation fund we've just added. Given the market mood right now, I think this should perform well over the next year also."
+          },
+          {
+            "segment_id": "seg_5",
+            "start_time": 24.09,
+            "end_time": 34.71,
+            "text_english": "Well, nothing certain of course, but based on how multi-asset funds have generally behaved in similar conditions, I'd lean towards it doing reasonably well. It's not a small allocation, so worth considering.",
+            "text_original": "Well, nothing certain of course, but based on how multi-asset funds have generally behaved in similar conditions, I'd lean towards it doing reasonably well. It's not a small allocation, so worth considering."
+          },
+          {
+            "segment_id": "seg_7",
+            "start_time": 37.75,
+            "end_time": 40.63,
+            "text_english": "Sure, no rush. I'll send you the fund details over email.",
+            "text_original": "Sure, no rush. I'll send you the fund details over email."
+          },
+          {
+            "segment_id": "seg_9",
+            "start_time": 42.57,
+            "end_time": 43.87,
+            "text_english": "Thanks, Anjali. Talk soon.",
+            "text_original": "Thanks, Anjali. Talk soon."
+          }
+        ],
+        "rm_segments_evaluated": 5,
+        "customer_segments": []
+      },
+      "regulation_citations": [
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_58",
+          "citation_label": "SEBI Master Circular MF §3, p.97",
+          "bm25_score": 36.2443,
+          "semantic_score": 0.9371,
+          "clause_text": "6.16.2. \nRisk value of commodities for risk-o-meter139: For evaluation of risk \nvalue of commodities in which mutual funds are permitted to invest, in \nterms of Paragraph 6.16.1(g), investment in commodities by mutual fund \nschemes shall be assigned a risk score corresponding to the annualized \nvolatility of the price of the said commodity. The annualized volatility \nshall be computed quarterly based on past 15 years’ prices of \nbenchmark index of the said commodity and risk score for the \ncommodity shall be in terms of the following table: \nAnnualized volatility \nRisk value on risk-o-meter (Risk) \n<10% \n3 (Moderate) \n10-15% \n4 (Moderately High) \n15-20% \n5 (High) \n>20% \n6 (Very high) \nIllustration: If price of gold has annualized volatility of 18% based on price \nof gold of past 15 years, then Gold and gold related instruments will have \nrisk value of 5 (High) on risk-o-meter.  \n6.16.3. \nProduct label shall be disclosed in: \n(a) \nFront page of initial offering application forms, SID and KIM. \n(b) \nCommon application form – along with the information about the \nscheme.  \n(c) \nThe product label with respect to Paragraph 6.16.3(a) & 6.16.3.(b) \nshall be placed in proximity to the caption of the scheme and shall \nbe prominently visible. \n(d) \nScheme advertisements - placed in a manner so as to be \nprominently visible to investors. \n6.16.4. \nChange in risk-o-meter shall not be considered as a Fundamental \nAttribute Change of the scheme in terms of Regulation 22(9)(c). \n6.17. Risk-O-Meter related disclosures \n6.17.1. \n140Mutual Funds/AMCs shall include the following in all disclosures, \nincluding promotional material or any other disclosures stipulated by the \nBoard: \n139 SEBI Circular no. SEBI/HO/IMD/IMD-II DOF3/P/CIR/2022/49 dated April 11, 2022 \n140 SEBI/HO/IMD/IMD-II DOF3/P/CIR/2021/621 dated August 31, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(a) \nrisk-o-meter of the scheme wherever the performance of the \nscheme is disclosed \n(b) \nrisk-o-meter of the scheme and benchmark wherever the \nperformance of the scheme vis-à-vis that of the benchmark is \ndisclosed.  \n6.17.2. \nAMCs shall disclose risk-o-meter of the scheme and benchmark on: \n(a) \nFront page of initial offering application form, SID and KIM; and  \n(b) \nCommon application form – along with the information about the \nscheme141.  \n6.17.3. \nThe disclosure requirement of the risk-o-meter of benchmark is \napplicable for primary benchmark which is specified in the SID. \n6.17.4. \nFor international benchmarks, risk-o-meter score may be assigned in \nline with risk-o-meter score assigned to foreign securities as specified in \nParagraph 6.16 of this Master Circular. \n6.17.5. \nAMCs shall enter into arrangements with their selected Index providers \nto provide the risk-o-meter for their benchmarks to the AMCs latest by \nthe 5th calendar day of the succeeding month. \n6.18. Potential Risk Class (PRC) Matrix142    \n6.18.1. \nAll debt mutual fund schemes shall be classified in terms of a PRC \nmatrix consisting of parameters based on maximum interest rate risk \n(measured by Macaulay Duration (MD) of the scheme) and maximum \ncredit risk (measured by Credit Risk Value (CRV) of the scheme).",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 97
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_57",
+          "citation_label": "SEBI Master Circular MF §3, p.94",
+          "bm25_score": 33.8874,
+          "semantic_score": 0.9439,
+          "clause_text": "6.14.2. \nThe AMCs shall include the aforesaid report in their annual reports, as \npart of the Report of the Trustees. \n6.14.3. \nFurther, in order to facilitate awareness amongst investors about various \nactivities related to mutual fund investments, the Board has prepared an \nInvestor Charter, provided at Format No. 9D, for Mutual Funds, inter-\nalia, detailing the services provided to Investors, Rights of Investors, \nvarious activities of Mutual Funds with timelines, DOs and DON’Ts for \nInvestors and Grievance Redressal Mechanism.  \n6.14.4. \nMutual Funds shall bring the Investor Charter for Mutual Funds to the \nnotice of their unit holders (existing as well as new unit holders) by \ndisclosing the Investor Charter on their websites, making them available \nat prominent places in the office, etc.  \n6.14.5. \nFurther, Mutual Funds shall display link/option to lodge complaint with \nthem directly on their websites and mobile apps. Additionally, link to \nSCORES website/ link to download mobile app (SEBI SCORES) shall \nalso be provided on their website. \n6.15. Brokerage and commission paid to associates132  \n6.15.1. \nBrokerage and commission paid to associates/related parties/group \ncompanies of sponsor/AMC shall be disclosed in the unaudited half \nyearly financial results, the abridged scheme wise annual report and the \nSAI, as per Format No. 7B. \n6.16. Product Labelling in Mutual Funds133    \n6.16.1. \nAll the mutual funds shall ‘Label’ their schemes on the parameters as \nmentioned under: \n(a) \nNature of scheme such as to create wealth or provide regular \nincome in an indicative time horizon (short/ medium/ long term). \n(b) \nA brief about the investment objective (in a single line sentence) \nfollowed by kind of product in which investor is investing \n(Equity/Debt). \n(c) \nThe depiction of risk shall be through pictorial meter named \n\"Riskometer\" and this meter shall appropriately depict the level of \nrisk in any specific scheme.  \n(d) \nRisk-o-meter shall have following six levels of risk for mutual funds \n[with the given colour scheme134   \n132 SEBI Circular No. SEBI/IMD/CIR No 18/198647/2010 dated March 15, 2010 \n133 SEBI Circular No. CIR/IMD/DF/5/2013 dated March 18, 2013 \n134 SEBI Circular No. CIR/IMD/DF/4/2015 dated April 30, 2015, Circular No. SEBI/HO/IMD/DF3/CIR/P/2020/197 Dated October \n05, 2020 and SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(i) \nLow risk- Irish Green [#08A04B]135  \n(ii) \nLow to Moderate risk- Chartreuse [#7FFF00] \n(iii) Moderate risk- Neon Yellow [#FFFF33] \n(iv) Moderately High risk-Caramel [#C68E17] \n(v) \nHigh – risk-Dark Orange [#FF8C00]  \n(vi) Very High risk.- Red [#F70D1A] \n(e) \nThe above given colour scheme of risk-o-meter shall be applicable \nfor \nall \ndigital \nand \npolychrome \nprinted \npromotion \nmaterials/disclosures for the schemes. \n(f) \nRiskometer: Risk level of the scheme shall be depicted by “Risk-o-\nmeter”, as given below136: \nThe risk of the scheme/benchmark is [level of risk] \nFor example, the risk depicted in the above risk-o-meter is \nModerately High. \n(g) \nThe detailed guidelines for evaluation of risk levels of a scheme \nalong with few examples are provided at Annexure 10137. \nPursuant to calculation of risk value of the scheme portfolio based \non the methodology specified in Annexure 10, risk level of a \nscheme as mentioned at Table 11 of Annexure 10 shall be \ndepicted by risk-o-meter shown above at Paragraph 6.16.1(f).  \n(h) \nBased on the scheme characteristics, Mutual Funds shall assign \nrisk level for schemes at the time of launch of scheme/NFO.  \n(i) \nAny change in risk-o-meter of the scheme or its benchmark shall \nbe communicated by way of Notice cum Addendum and by way of \nan e-mail or SMS to unitholders of that particular scheme. The \n135 HTML Color Code \n136 SEBI Circular no. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \n137 SEBI Circular no. SEBI/HO/IMD/DF3/CIR/P/ 2020/197 dated October 05, 2020, Refer SEBI letter no. SEBI/HO/IMD-\nII/DOF3/OW/P/2021/1566/1 dated January 19, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\nformat for disclosure of change in Risk-o-meter shall be as \nunder138: \nName of \nthe \nScheme(s\n) \nExisting Risk-o-meter of \nScheme/Benchmark \nRevised Risk-o-meter of \nScheme/Benchmark \nXXXX \nLarge and \nMidcap \nFund \nThe risk of the scheme is \nmoderately high \nThe risk of the scheme is very \nhigh] \n(j) \nRisk-o-meter shall be evaluated on a monthly basis and Mutual \nFunds/AMCs shall disclose the Risk-o-meter along with portfolio \ndisclosure for all their schemes on their respective website and on \nAMFI website within 10 calendar days from the close of each \nmonth.  \n(k) \nMutual Funds shall disclose the risk level of schemes as on March \n31 of every year, along with number of times the risk level has \nchanged over the year, on their website and AMFI website.  \n(l) \nMutual Funds shall publish the following table of scheme wise \nchanges in Risk-o-meter in scheme wise Annual Reports and \nAbridged summary: \nScheme \nname  \nRisk-o-meter \nlevel at start \nof \nthe \nfinancial year  \nRisk-o-meter \nlevel at end of \nthe financial \nyear \nNumber \nof \nchanges \nin \nRisk-o-meter \nduring \nthe \nfinancial year \n(m) A disclaimer shall be given stating that investors should consult \ntheir financial advisers if they are not clear about the suitability of \nthe product.  \n138 SEBI Circular No. SEBI/HO/IMD/PoD1/CIR/P/2024/150 dated November 05, 2024 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index",
+          "heading": "of this Master Circular, scheme performance is also to",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 94
+        },
+        {
+          "chunk_id": "SEBI_MASTER_CIRCULAR_MF_22_197",
+          "citation_label": "SEBI Master Circular MF §22, p.320",
+          "bm25_score": 30.846,
+          "semantic_score": 0.0,
+          "clause_text": "84. \nSEBI/HO/IMD/IMD-\nI/DOF5/P/CIR/2021/629 \nSeptember 20, 2021 Clarification with respect to Circular dated \nApril 28, 2021 on 'Alignment of Interest of Key \nEmployees ('Designated Employees') of Asset \nManagement Companies (AMCs) with the \nUnitholders of the Mutual Fund schemes  \n85. \nSEBI/HO/IMD/IMD-\nIDOF5/P/CIR/2021/624 \nSeptember 02, 2021 Alignment of interest of Key Employees of \nAsset Management Companies (AMCs) with \nthe unitholders of the Mutual Fund schemes  \n86. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/621 \nAugust 31, 2021 \nDisclosure of Risk-o-Meter of scheme, \nbenchmark and portfolio details to the \ninvestors \n87. \nSEBI/HO/IMD/IMD-\nI/DOF5/P/CIR/2021/610 \nAugust 04, 2021 \nMaintenance of current accounts in multiple \nbanks by Mutual Funds \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n88. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/608 \nJuly 30, 2021 \nDeployment of unclaimed redemption and \ndividend amounts and instant access facility in \nOvernight Funds \n89. \nSEBI/HO/IMD/IMD-\nI/DOF5/P/CIR/2021/0606 \nJuly 30, 2021 \nIntra-Day Net Assets Value (NAV) for \nTransactions in Units of Exchange Traded \nFunds directly with Asset Management \nCompanies \n90. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/604 \nJuly 26, 2021 \nRTA inter-operable Platform for enhancing \ninvestors' experience in Mutual Fund \ntransactions/ service requests \n91. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/603 \nJuly 23, 2021 \nTimelines related to processing of scheme \nrelated applications filed by AMCs \n92. \nSEBI/HO/IMD/DF4/P/CIR/20\n21/593 \nJuly 09, 2021 \nValuation of securities with multiple put \noptions present ab-initio \n93. \nSEBI/HO/IMD/IMD-\nI/DOF5/P/CIR/2021/582 \nJune 25, 2021 \nAlignment of interest of Key Employees of \nAsset Management Companies (AMCs) with \nthe unitholders of the Mutual Fund schemes  \n94. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/583 \nJune 25, 2021 \nPrudential norms for liquidity risk management \nfor open ended debt schemes \n95. \nSEBI/HO/IMD/IMD-I \nDOF2/P/CIR/2021/580 \nJune 18, 2021 \nNorms for investment and disclosure by \nmutual funds in derivatives \n96. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/573 \nJune 07, 2021 \nPotential Risk Class Matrix for debt schemes \nbased on Interest Rate Risk and Credit Risk \n97. \nSEBI/HO/IMD/IMD-\nII/DOF3/P/CIR/2021/571 \nJune 03, 2021 \nEnhancement of Overseas Investment limits \nfor Mutual Funds \n98. \nSEBI/HO/IMD/IMD-II \nDOF3/P/CIR/2021/566 \nMay 31, 2021 \nDisclosure of the following only w.r.t schemes \nwhich are subscribed by the investor: \na. risk-o-meter of the scheme and the \nbenchmark along with the performance \ndisclosure of the scheme vis-à-vis benchmark \nand \nb. Details of the portfolio \n99. \nSEBI/HO/IMD/IMD-I \nDOF2/P/CIR/2021/0560  \nApril 30, 2021 \nTimelines for updation of Scheme Information \nDocument (SID) and Key Information \nMemorandum (KIM) \n100. SEBI/HO/IMD/IMD-II \nApril 29, 2021 \nDisclosure of the following only w.r.t schemes \nwhich are subscribed by the investor: \na. risk-o-meter of the scheme and the \nbenchmark along with the performance \ndisclosure of the scheme vis-à-vis benchmark \nand \nb. Details of the portfolio \nDOF3/P/CIR/2021/555",
+          "heading": "MISCELLANEOUS",
+          "source_file": "RegulatoryDocs/SEBI/master-circular-for-mutual-funds.pdf",
+          "page_number": 320
+        }
+      ]
+    }
+  ],
+  "detection_completed_at": "2026-09-15T13:22:33.712644+00:00",
+  "generated_at": "2026-09-15T13:22:33.712644+00:00"
+}

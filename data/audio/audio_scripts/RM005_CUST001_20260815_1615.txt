@@ -1,0 +1,49 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM005_CUST001_20260815_1615.wav
+RM: RM005 — Rahul Desai
+Customer: CUST001 — Meena Iyer (Conservative, Low Investment Experience)
+Language: Tamil
+Target Duration: ~70-85 seconds
+Ground-truth Severity: CLEAN (no violation)
+Ground-truth Category: N/A
+Product Discussed: PROD001 — Vigil Liquid Fund (Low Risk)
+Notes: Same customer as call #1, but here handled by a different, fully
+compliant RM — correct suitability match, full risk disclosure, no return
+promises. This deliberately contrasts with call #1, where RM001 mishandled
+this exact same customer.
+========================================================================
+(Tamil script, with English translation in brackets after each line)
+
+[0:00] RM: வணக்கம் மீனா அம்மா, நான் ராகுல் பேசுறேன், Vigil Wealth-ல இருந்து.
+       [Hello Mrs. Meena, this is Rahul speaking, from Vigil Wealth.]
+
+[0:05] CUSTOMER: வணக்கம் ராகுல், சொல்லுங்க.
+       [Hello Rahul, tell me.]
+
+[0:07] RM: அம்மா, உங்க profile பாத்தா நீங்க conservative investor-ஆ இருக்கீங்க, so நான் ஒரு Liquid Fund suggest பண்ணலாம்னு நினைச்சேன். இது ரொம்ப low risk fund.
+       [Ma'am, looking at your profile, you're a conservative investor, so I thought I'd suggest a Liquid Fund. This is a very low-risk fund.]
+
+[0:19] CUSTOMER: சரி, இதுல return எப்படி இருக்கும்?
+       [Okay, how will the returns be in this?]
+
+[0:22] RM: அம்மா, நான் உங்களுக்கு எந்த fixed-ஆ அல்லது guaranteed return-உம் சொல்ல முடியாது, அது market condition-ஐ பொருத்தது. ஆனா இந்த fund history-ல ரொம்ப stable-ஆ இருந்திருக்கு.
+       [Ma'am, I can't tell you any fixed or guaranteed return, it depends on market conditions. But historically this fund has been quite stable.]
+
+[0:35] CUSTOMER: புரியுது. இதுல என்ன risk இருக்கு?
+       [I understand. What risk is there in this?]
+
+[0:38] RM: இது ரொம்ப short-term instruments-ல invest பண்றது, so risk மிகவும் குறைவு, ஆனா zero risk இல்ல. நான் உங்களுக்கு scheme document-உம் அனுப்பி வைக்கிறேன், அதுல எல்லா disclosures-உம் இருக்கும்.
+       [This invests in very short-term instruments, so the risk is very low, but not zero risk. I'll send you the scheme document too, it'll have all the disclosures.]
+
+[0:52] CUSTOMER: சரி, இது எனக்கு பொருத்தமா இருக்கு போல.
+       [Okay, this seems suitable for me.]
+
+[0:55] RM: ஆமா அம்மா, உங்க profile-க்கு இது சரியா match ஆகுது. நான் form அனுப்பி வைக்கிறேன், படிச்சு sign பண்ணிடுங்க.
+       [Yes ma'am, this matches your profile correctly. I'll send the form, please read and sign it.]
+
+[1:04] CUSTOMER: சரி, நன்றி ராகுல்.
+       [Okay, thank you Rahul.]
+
+[1:06] RM: நன்றி அம்மா, நல்ல நாள் ஆகட்டும்.
+       [Thank you ma'am, have a good day.]

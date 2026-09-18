@@ -1,0 +1,47 @@
+{
+  "call_id": "CALL_RM004_CUST002_20260701_0930",
+  "date_time": "2026-07-01T09:30:00Z",
+  "rm_id": "RM004",
+  "customer_id": "CUST002",
+  "total_candidates": 1,
+  "confirmed_count": 1,
+  "dismissed_count": 0,
+  "investigations": [
+    {
+      "candidate_id": "CAND_CALL_RM004_CUST002_20260701_0930_01",
+      "outcome": "CONFIRMED",
+      "finding": {
+        "finding_id": "FND-2026-DD3EFD",
+        "call_id": "CALL_RM004_CUST002_20260701_0930",
+        "rm_id": "RM004",
+        "customer_id": "CUST002",
+        "category": "MISSING_DISCLOSURE",
+        "severity": "MEDIUM",
+        "confidence": 0.85,
+        "status": "OPEN",
+        "timestamp_start": 5.0,
+        "timestamp_end": 33.0,
+        "transcript_evidence": "Rohan, I wanted to talk about balanced hybrid funds today. It invests in both equity and debt, and provides a good balance. It offers diversification, and historically, this category has consistently provided returns. It's a good fit for your moderate profile. Look, there is market risk, obviously, but overall it is less risky than equity-only funds. I recommend this for you.",
+        "customer_risk_profile": "Moderate",
+        "product_risk_class": "Medium",
+        "regulation_chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_58",
+        "regulation_citation_label": "SEBI Master Circular MF \u00a73, p.97",
+        "regulation_source_url": "https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100491.html",
+        "regulation_clause_text": "6.16.2. \nRisk value of commodities for risk-o-meter139: For evaluation of risk \nvalue of commodities in which mutual funds are permitted to invest, in \nterms of Paragraph 6.16.1(g), investment in commodities by mutual fund \nschemes shall be assigned a risk score corresponding to the annualized \nvolatility of the price of the said commodity. The annualized volatility \nshall be computed quarterly based on past 15 years\u2019 prices of \nbenchmark index of the said commodity and risk score for the \ncommodity shall be in terms of the following table: \nAnnualized volatility \nRisk value on risk-o-meter (Risk) \n<10% \n3 (Moderate) \n10-15% \n4 (Moderately High) \n15-20% \n5 (High) \n>20% \n6 (Very high) \nIllustration: If price of gold has annualized volatility of 18% based on price \nof gold of past 15 years, then Gold and gold related instruments will have \nrisk value of 5 (High) on risk-o-meter.  \n6.16.3. \nProduct label shall be disclosed in: \n(a) \nFront page of initial offering application forms, SID and KIM. \n(b) \nCommon application form \u2013 along with the information about the \nscheme.  \n(c) \nThe product label with respect to Paragraph 6.16.3(a) & 6.16.3.(b) \nshall be placed in proximity to the caption of the scheme and shall \nbe prominently visible. \n(d) \nScheme advertisements - placed in a manner so as to be \nprominently visible to investors. \n6.16.4. \nChange in risk-o-meter shall not be considered as a Fundamental \nAttribute Change of the scheme in terms of Regulation 22(9)(c). \n6.17. Risk-O-Meter related disclosures \n6.17.1. \n140Mutual Funds/AMCs shall include the following in all disclosures, \nincluding promotional material or any other disclosures stipulated by the \nBoard: \n139 SEBI Circular no. SEBI/HO/IMD/IMD-II DOF3/P/CIR/2022/49 dated April 11, 2022 \n140 SEBI/HO/IMD/IMD-II DOF3/P/CIR/2021/621 dated August 31, 2021 \nMaster Circular for Mutual Funds as on March 20, 2026 \nBack to Index \n\n(a) \nrisk-o-meter of the scheme wherever the performance of the \nscheme is disclosed \n(b) \nrisk-o-meter of the scheme and benchmark wherever the \nperformance of the scheme vis-\u00e0-vis that of the benchmark is \ndisclosed.  \n6.17.2. \nAMCs shall disclose risk-o-meter of the scheme and benchmark on: \n(a) \nFront page of initial offering application form, SID and KIM; and  \n(b) \nCommon application form \u2013 along with the information about the \nscheme141.  \n6.17.3. \nThe disclosure requirement of the risk-o-meter of benchmark is \napplicable for primary benchmark which is specified in the SID. \n6.17.4. \nFor international benchmarks, risk-o-meter score may be assigned in \nline with risk-o-meter score assigned to foreign securities as specified in \nParagraph 6.16 of this Master Circular. \n6.17.5. \nAMCs shall enter into arrangements with their selected Index providers \nto provide the risk-o-meter for their benchmarks to the AMCs latest by \nthe 5th calendar day of the succeeding month. \n6.18. Potential Risk Class (PRC) Matrix142    \n6.18.1. \nAll debt mutual fund schemes shall be classified in terms of a PRC \nmatrix consisting of parameters based on maximum interest rate risk \n(measured by Macaulay Duration (MD) of the scheme) and maximum \ncredit risk (measured by Credit Risk Value (CRV) of the scheme).",
+        "reasoning": "The RM pitched Vigil Balanced Hybrid Fund (Medium risk) but failed to provide mandatory product-specific disclosures required under SEBI regulations. While the RM mentioned general 'market risk', they completely omitted the required risk-o-meter disclosure and hybrid-allocation disclosure mandated for Medium risk products. The regulation requires risk-o-meter disclosure in all promotional material and disclosures, and the product profile specifically mandates 'Risk-o-meter + hybrid-allocation disclosure required.' The RM's vague reference to 'market risk' and 'less risky than equity-only funds' does not satisfy the specific disclosure requirements for balanced hybrid funds.",
+        "recommended_action": "Require RM to complete proper risk-o-meter and hybrid-allocation disclosures before product recommendation. Provide refresher training on mandatory disclosure requirements for Medium/High risk products.",
+        "provider_used": "bedrock",
+        "bm25_score": 37.224,
+        "semantic_score": 0.8194,
+        "created_at": "2026-09-18T10:48:44.581385Z",
+        "updated_at": "2026-09-18T10:48:44.581385Z"
+      },
+      "provider_used": "bedrock",
+      "reasoning": "The RM pitched Vigil Balanced Hybrid Fund (Medium risk) but failed to provide mandatory product-specific disclosures required under SEBI regulations. While the RM mentioned general 'market risk', they completely omitted the required risk-o-meter disclosure and hybrid-allocation disclosure mandated for Medium risk products. The regulation requires risk-o-meter disclosure in all promotional material and disclosures, and the product profile specifically mandates 'Risk-o-meter + hybrid-allocation disclosure required.' The RM's vague reference to 'market risk' and 'less risky than equity-only funds' does not satisfy the specific disclosure requirements for balanced hybrid funds.",
+      "investigation_completed_at": "2026-09-18T10:48:34.556576+00:00",
+      "case_id": "CASE-2026-DD3EFD"
+    }
+  ],
+  "investigation_completed_at": "2026-09-18T10:48:45.582258+00:00",
+  "generated_at": "2026-09-18T10:48:45.582258+00:00"
+}

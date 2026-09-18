@@ -1,0 +1,12 @@
+{
+  "call_id": "CALL_RM002_CUST005_20260422_1400",
+  "date_time": "2026-04-22T14:00:00Z",
+  "rm_id": "RM002",
+  "customer_id": "CUST005",
+  "total_candidates": 0,
+  "confirmed_count": 0,
+  "dismissed_count": 0,
+  "investigations": [],
+  "investigation_completed_at": "2026-09-16T17:50:32.649434+00:00",
+  "generated_at": "2026-09-16T17:50:32.649434+00:00"
+}

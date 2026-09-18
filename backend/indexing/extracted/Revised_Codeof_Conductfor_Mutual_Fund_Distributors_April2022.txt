@@ -1,0 +1,292 @@
+Code of Conduct for Mutual Fund Distributors  
+I. 
+Purpose and Scope of the Code 
+a. This Code of Conduct (“Code”) requires Mutual Fund Distributors to demonstrate the 
+core values of being a fiduciary by establishing professional standards in their dealings 
+with the investors, Asset Management Companies (“AMCs”), and other distributors so as 
+to exemplify the values of transparency, competency, fairness, integrity and thereby seek 
+to inspire and maintain trustworthiness in the profession of distribution of Mutual Fund 
+schemes. 
+b. This Code applies to all persons and entities who are registered with the Association of 
+Mutual Funds in India (AMFI) as mutual fund distributors i.e. holders of AMFI Registration 
+Number (“ARN”) (referred to as “MFDs” in this Code) and is binding on all the 
+Directors/partners, members, sub-distributors, employees and representatives of the 
+MFDs (collectively referred to as “Representatives” in this Code). The term “MFDs” is 
+deemed to include the sales personnel of the MFDs engaged in marketing, sale and 
+distribution of mutual fund products.  
+II. Obligations of the MFDs 
+1. Fiduciary Duty 
+a. 
+MFDs must consider investor’s interest as paramount and exercise due diligence, take 
+proper care and exercise independent professional judgment in the best interest of 
+the investor.   
+b. 
+MFDs should try to avoid conflict of interest as far as possible, and when it cannot be 
+avoided, they shall ensure that appropriate disclosures are made to the investors, and 
+that the investors are treated fairly. Further, while selling Mutual Fund products of 
+their group/affiliate/associates, MFDs shall make appropriate disclosures to the 
+investors regarding the conflict of interest arising from distribution of such Mutual 
+Fund scheme. 
+c. 
+MFDs shall ensure that financial incentive should not form the basis for recommending 
+any particular scheme or transaction to any investor. MFDs shall promote a culture of 
+ethics and integrity within the organization, so as to dissuade unfair practices, 
+conflicts, aggressive sales tactics and other inappropriate conduct directed to achieve 
+sales targets in disregard of its fiduciary duty of care, diligence and loyalty.  
+d. 
+MFDs shall not rebate or pass-back commission to investors and shall refrain from 
+attracting investors through inducement of rebate or gifts / gift-vouchers etc. 
+e. 
+MFDs shall not collude or undertake malpractices such as:  
+
+i. 
+encouraging over transacting and churning of investments to earn higher 
+commissions. 
+ii. 
+splitting applications to earn higher transaction charges / commissions. 
+iii. 
+participating in payment defaults (such as dishonoring of cheques) or diversion of 
+funds. 
+iv. 
+making false claims for or participating in wrongful dividend / redemption payouts. 
+v. 
+carrying out unethical practices such as churning, selling unsuitable products to 
+clients, selling of units of schemes of any mutual fund, directly or indirectly, by 
+making false or misleading statements, concealing or omitting material facts of the 
+scheme, concealing the associated risk factors of the schemes, etc.  
+2. Compliance related obligations  
+a. MFDs shall adhere to Securities and Exchange Board of India (Mutual Funds) 
+Regulations, 1996 (“Mutual Fund Regulations”) and guidelines/circulars issued by 
+Securities and Exchange Board of India (“SEBI”) and AMFI, from time to time, pertaining 
+to distributors, selling, distribution and advertising practices (including the preparation 
+of sales promotional literature and content) and code of conduct. Performance 
+disclosures should also comply with the requirements specified by SEBI. MFDs must also 
+adhere to restrictions prescribed under other SEBI Regulations as may be applicable to 
+their marketing, selling and distribution activities, for example, obligation on 
+segregation of distribution and advisory services mandated under SEBI (Investment 
+Advisers) Regulations, 2013.  
+b. MFDs shall comply with the Know Your Distributor (“KYD”) norms prescribed by AMFI. 
+MFDs shall be diligent in attesting / certifying investor documents and performing In-
+Person Verification (“IPV”) of investors for the KYC process in accordance with the 
+guidelines prescribed by AMFI / KYC Registration Agency (“KRA”) from time to time.  
+c. 
+MFDs should endeavor to be fully conversant with the key provisions of the Scheme 
+Information Document (“SID”), Statement of Additional Information (“SAI”) and Key 
+Information Memorandum (“KIM”) as well as the operational requirements of various 
+schemes and should explain to the investors the key features (including fundamental 
+attributes) of the schemes and any risk associated therein. 
+d. In order to assess suitability of the Mutual Fund scheme being marketed, the MFDs 
+should seek information from their clients about their financial status, investment 
+experience and investment objectives.  
+e. MFDs shall ensure that their Representatives have the necessary education and 
+experience to perform their respective services.  
+f. 
+MFDs and their Representatives shall maintain confidentiality of all information relating 
+to the AMCs and investors, and shall not: 
+
+i. 
+share or publish such information in any private or public forum without prior written 
+consent of the concerned AMC/investor   
+ii. 
+share or make any disclosure to any third party except pursuant to any filings or 
+disclosures as may be required under applicable law or order of any court or regulatory 
+body.  
+iii. 
+share data with Group Companies for cross marketing. 
+MFDs and their Representatives shall comply with the Data Sharing Principles prescribed by 
+AMFI and the applicable laws on Personal Data Protection. 
+g. MFDs shall adhere to contractual agreements with AMC relating to data privacy to ensure 
+that the data is always protected, used only for the purpose for which it was obtained and 
+purged as soon as the data is no longer required to be stored for rendering services for which 
+it was collected or stored securely. 
+h. MFDs shall ensure that they and their sub-distributors are compliant with SEBI regulations, 
+AMFI guidelines and code of conduct at all times and also that all their sub-distributors have 
+a valid ARN.   In other words, principal MFD should not engage or continue to engage a sub-
+distributor whose ARN is rendered invalid. 
+3. Infrastructure, record keeping and other related obligations 
+a. 
+Physical Infrastructure: MFDs should maintain necessary infrastructure to support the 
+AMCs in maintaining high service standards to investors and ensure that critical 
+operations such as forwarding /submission of forms and cheques etc. to AMCs/RTAs 
+are appropriately supported. 
+b. 
+Digital Infrastructure:  In view of increased initiatives towards digitization of mode of 
+performance of services, including new client on-boarding, transaction processing and 
+ongoing servicing for investors, MFDs should adopt adequate  information technology 
+related infrastructure, including in relation to cyber security measures to maintain 
+confidentiality of electronic data during collection, transmission and storage as well as 
+to mitigate risks related to execution of  Mutual Fund transactions through digital 
+platforms. 
+c. 
+Internal control, financial and operational resources: The MFDs should have internal 
+control procedures and financial and operational systems and processes which can be 
+reasonably expected to detect and prevent mis-selling as well as mitigate financial loss 
+arising from fraud and other dishonest acts, professional misconduct or omissions, 
+theft, or force majeure events. MFDs are encouraged to take up appropriate insurance 
+coverage for their activities.  
+
+d. 
+Record keeping: MFDs should maintain adequate records in relation to clients, 
+whether in physical or digital form, as applicable, in compliance with the applicable 
+laws and SEBI regulations, including KYC records as well as correspondence with the 
+investors on particular scheme or transaction suitability and consent/dissent of the 
+investors.  
+4. Client related obligations 
+a. MFDs shall provide full and updated information on schemes, as provided to them by 
+the AMCs, to the investors including SAI, SID, addenda, performance reports, fact 
+sheets, portfolio disclosures and brochures. MFDs shall not deliberately withhold or 
+omit any material fact or information supplied to them by the AMCs from any investor 
+that the investor should know or may want to know, including information about 
+particular scheme or transaction not being appropriate for the investor. 
+b. MFDs shall highlight risk factors of each scheme to their investors, desist from making 
+any misrepresentation or exaggerated statements or conceal associated risk factors of 
+a scheme and shall advise and urge their investors to go through SAI/SID/KIM before 
+deciding to make investments.  
+c. 
+MFDs shall disclose to the investors all material information including all  commissions 
+(in the form of trail commission or any other mode) received or receivable by them for 
+the different competing schemes of various Mutual Funds from amongst which the 
+scheme is being recommended to the investor. 
+d. MFDs shall disclose to their clients the list of mutual funds they are affiliated with and 
+inform  to the clients that the information provided is limited to the mutual fund 
+products that are being distributed/promoted by  the MFDs and also inform the clients 
+that the clients may also consider other alternate products, which are not being offered 
+by the MFDs before making investment decision. 
+e. If the MFD is an associate/group company/ sponsor of AMC of a mutual fund, the MFD 
+shall, while providing suggestions to investor, disclose all material information about its 
+association with the concerned  AMC and the total amount of commission 
+received/receivable. 
+f. 
+In terms of SEBI letter no. SEBI/IMD1/DoF-1/SK/2021/25517/1 dated September 06, 
+2021, MFDs cannot deal in Direct Plans. MFDs shall ensure that on any digital platform 
+provided by MFD for offering investment facility to investor, it is categorically disclosed 
+that the scheme the investor is subscribing to is of Regular Plan which involves payment 
+of commission to MFD. The link for the rate of commission received or receivable by the 
+MFD for the different competing schemes of various Mutual Funds shall be prominently 
+displayed on the platform indicating the same as a hyperlink. Further, a link to the 
+
+scheme offer documents (SID/SAI/KIM) shall also be prominently displayed on the 
+concerned page. 
+g. MFDs shall (i) not provide any indicative portfolio or indicative yield or indicative return 
+for any particular scheme or transaction and (ii) abstain from indicating or assuring 
+returns for any particular scheme or transaction.  
+h. MFDs engaged in providing other financial services in addition to distribution of mutual 
+fund products, where other financial products with assured return are being offered to 
+clients, MFDs and their employees shall ensure that they do not mis-sell mutual fund 
+products on the basis of indicative or assured return or regular income to the customers 
+seeking to make investments. It shall be explained to the clients that  MF investments 
+are not  guaranteed or assured return products and that the principal amount may be 
+exposed to risk of loss.  
+i. 
+To prevent submission of fraudulent, incomplete, tampered or incorrect forms or 
+applications, MFDs shall set up adequate training and processes to ensure that:  
+(i) information in the application forms (including address and contact details) is filled 
+diligently with the investor’s own, accurate and complete information. Whether 
+requested by the investor or not, the contact details / information of the MFDs’ 
+Representatives or any other third party is not filled in  the application forms, so as 
+to pass-off as the information relating to the investor; 
+(ii) any additions, revisions to the investor’s contact details /information is done only 
+upon receipt of such information from the investor or the investor’s authorized 
+person,  
+(iii) application forms submitted by the investor are not tampered with, whether by 
+inserting, deleting or modifying any information / field in the application forms, 
+(iv) EUIN of the concerned employee of the MFD is written on the application forms for 
+identification.    
+j. 
+MFDs shall endeavor to resolve investor grievances/ complaints arising out of 
+marketing, sale and distribution activities and shall provide complete assistance to the 
+AMCs for redressal of grievances/ complaints. 
+k. MFDs shall use marketing material as is provided to them by the AMCs and shall not 
+design their own marketing materials in respect of any scheme or display the name, 
+logo, mark of any AMC without the prior written approval of the AMC.  
+l. 
+MFDs shall draw attention of their clients to the disclosures made in the SID/SAI/ /KIM 
+relating to general risks of investing through mutual fund schemes as well as scheme 
+specific risks such as (i) returns being subject to market risk including loss of capital on 
+account of market volatility, force majeure events, changes in political and economic 
+environment, default by issuers of securities to mutual funds, bankruptcy or insolvency 
+
+of 
+issuers 
+and 
+potential 
+segregation 
+of 
+portfolio 
+by 
+AMC 
+in 
+such 
+circumstances; (ii) suspension of redemption facility in case the scheme faces liquidity 
+crisis; (iii) risks associated with subscription to new fund offering of the scheme such as 
+price volatility risk, liquidity risk and delisting risk; (iv) winding up of schemes on account 
+of illiquid instruments, higher volume of redemption requests from the investors or on 
+account of unforeseen market events.  
+m. MFDs shall ensure that comparisons, if any, are made with similar and comparable 
+schemes/ products along with complete facts. 
+5. Other obligations 
+a. Individual MFDs shall obtain NISM certification and register themselves with AMFI and 
+obtain ARN and Employee Unique Identification Number (EUIN) from AMFI. The NISM 
+certification and AMFI registration shall be renewed on a timely basis. Non-individual 
+MFDs shall register themselves with AMFI and obtain the ARN, and shall ensure that 
+their sales personnel or Representatives engaged in marketing, sale and distribution of 
+mutual fund products hold a valid NISM certificate and AMFI registration / EUIN. 
+Employees of the MFD in other functional areas should also be encouraged to obtain 
+appropriate NISM certification. MFDs shall quote a valid ARN and EUIN in the client’s 
+application / transaction feed, in order to place transactions in Regular Plan and receive 
+commissions 
+b. MFDs shall ensure that their Representatives undergo training on proper conduct for 
+their sales, marketing and distribution activities and focusing on (i) awareness and 
+understanding of their fiduciary obligations towards  investors, (ii) adequate procedures 
+to be followed in performance of their functions so as to prevent and detect any frauds 
+and errors, and (iii) responsible usage of social media platform with respect to content 
+standards, authenticity and approval for the information , frequency of usage and other 
+ethical practices.  
+c. 
+MFDs shall co-operate with and provide assistance, to AMCs, AMFI, SEBI, competent 
+authorities, due diligence agencies appointed by AMFI/AMCs (as applicable) in relation 
+to their services to the AMCs including by providing copies of relevant documents of the 
+investors in their possession as may be required by AMCs from time to time or as may 
+be called for by SEBI/AMFI / competent authority pursuant to any investigation or other 
+proceeding. 
+d. MFDs shall promptly intimate the AMC and AMFI any change in the MFD's status, 
+constitution, address, contact details or any other information provided at the time of 
+obtaining ARN. 
+
+e. MFDs shall refund to the AMCs, (either by set off against future commissions or by 
+payment) all incentives of any nature, including commissions received, that are subject 
+to clawback as per SEBI regulations or the terms and conditions issued by the respective 
+AMC. 
+f. 
+MFDs shall immediately notify the AMC and AMFI, in writing, if any of its 
+Representatives has committed any act amounting to moral turpitude, financial 
+irregularities or has been arrested by the police or whose employment/service has been 
+terminated on account of any of the aforesaid bad acts.  
+g. Pursuant to Regulation 3 (3) of the SEBI (Investment Advisers) Regulations, 2013, MFDs 
+shall not use terms such as Adviser / Advisor / Financial Adviser/ Investment Adviser/ 
+Wealth Adviser/Wealth Manager/Wealth Managers, Consultant/s, etc. or any other 
+similar name in their name, unless registered with SEBI as an Investment Adviser. The 
+name of an MFD should reflect the registration held by the entity and should not in any 
+way create an impression of performing a role for which the entity is not registered. The 
+registered name of the MFD shall not contain any misleading phrase about the role of 
+the entity. Thus, every MFD, while dealing in distribution of mutual fund 
+schemes/products, should clearly specify to the client that he /she is acting as a MFD.  
+MFDs shall mention/display a tagline, “AMFI-registered Mutual Fund Distributor” along 
+with / below their name, in a clear and legible font of at least font size 12, in all forms 
+of printed communication. MFD shall display their name and tagline in a clear and 
+legible font in all forms of communication i.e., website, mobile app, printed or electronic 
+materials, business card, sign board etc.   
+6. Obligations towards integrity of the Mutual Fund industry  
+a. MFDs shall not indulge in fraudulent or unfair trade practices of any kind while 
+marketing, selling or distributing any Mutual Fund scheme. MFDs and their 
+Representatives must observe high standards of integrity and consistently conduct their 
+dealings in a manner to uphold the professional image of the Mutual Fund industry. 
+b. MFDs, shall refrain from making false or defamatory statements about any AMC, AMFI, 
+Mutual Fund schemes or other MFDs in any private or public forum (including chat 
+groups, social media, print or electronic press, conferences etc.). MFDs shall maintain 
+professional decorum, provide fair and balanced perspective and not participate in 
+transmitting untrue statements or rumors so as to malign any AMC or Mutual Fund 
+scheme or bring disrepute to any AMC, AMFI or the Mutual Fund industry. Any written 
+or oral communication should be based on facts and be presented in an unbiased 
+manner so as not to mislead the public.  
+*********** 

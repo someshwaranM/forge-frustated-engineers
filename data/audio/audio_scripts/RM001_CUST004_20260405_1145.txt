@@ -1,0 +1,42 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM001_CUST004_20260405_1145.wav
+RM: RM001 — Arjun Mehta (2nd flagged call — repeat-violation pattern)
+Customer: CUST004 — Suresh Pillai (Conservative, Medium Investment Experience)
+Language: Hindi
+Target Duration: ~50-65 seconds
+Ground-truth Severity: MEDIUM
+Ground-truth Category: Guaranteed Return (mild/implied)
+Product Discussed: PROD002 — Vigil Short Duration Debt Fund (Low Risk)
+Violation Notes: RM uses soft but clear return-assurance language ("loss hone ka koi
+chance nahi hai") — milder than an explicit guarantee, but still a return-assurance
+claim not permitted under AMFI Distributor Code §II.4.g/h.
+========================================================================
+(Hindi in Devanagari, with English translation in brackets after each line)
+
+[0:00] RM: नमस्ते सुरेश जी, अर्जुन बोल रहा हूँ Vigil Wealth से।
+       [Hello Mr. Suresh, this is Arjun calling from Vigil Wealth.]
+
+[0:05] CUSTOMER: नमस्ते अर्जुन जी, बोलिए।
+       [Hello Arjun, go ahead.]
+
+[0:07] RM: सर, मैं आपके लिए एक Short Duration Debt Fund की बात करना चाहता था। ये काफी स्टेबल है।
+       [Sir, I wanted to talk to you about a Short Duration Debt Fund. It's quite stable.]
+
+[0:15] CUSTOMER: ठीक है, लेकिन मुझे safe investment ही चाहिए, risk नहीं लेना है मुझे।
+       [Okay, but I only want a safe investment, I don't want to take any risk.]
+
+[0:21] RM: बिल्कुल सर, आप निश्चिंत रहिए, इसमें आपको loss होने का कोई chance नहीं है। पैसा पूरी तरह सुरक्षित रहेगा।
+       [Absolutely sir, don't worry at all, there's no chance of you having a loss in this. Your money will be completely safe.]
+
+[0:31] CUSTOMER: अच्छा, ये सुनकर अच्छा लगा। ठीक है फिर, आगे बढ़िए।
+       [Okay, good to hear that. Alright then, go ahead.]
+
+[0:36] RM: जी सर, मैं अभी form भेज देता हूँ, आप sign करके भेज दीजिएगा।
+       [Yes sir, I'll send the form right away, please sign and send it back.]
+
+[0:41] CUSTOMER: ठीक है, धन्यवाद अर्जुन जी।
+       [Okay, thank you Arjun.]
+
+[0:43] RM: धन्यवाद सर, आपका दिन शुभ हो।
+       [Thank you sir, have a good day.]

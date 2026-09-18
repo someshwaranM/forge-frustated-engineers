@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+node_modules/
+dist/
+build/
+.pytest_cache/
+.coverage
+*.log
+CallAudio/*
+!CallAudio/.gitkeep
+CallAudio-Archive/*
+!CallAudio-Archive/.gitkeep
+CallAudio-Failed/*
+!CallAudio-Failed/.gitkeep

@@ -1,0 +1,52 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM002_CUST005_20260422_1400.wav
+RM: RM002 — Priya Nair (same RM as call #3 — but CLEAN here, demonstrating
+    that Vigil evaluates calls, not RMs wholesale)
+Customer: CUST005 — Kavita Bhatt (Moderate, Low Investment Experience, KYC: PENDING)
+Language: English + Hindi (code-mixed)
+Target Duration: ~95-110 seconds
+Ground-truth Severity: CLEAN (no violation)
+Ground-truth Category: N/A
+Product Discussed: PROD001 — Vigil Liquid Fund (Low Risk)
+Notes: RM conducts a proper suitability check, gives a clear risk disclosure,
+makes no return promises, and correctly flags the pending KYC status. This is
+a fully compliant call.
+========================================================================
+
+[0:00] RM: Hi Kavita ji, main Priya bol rahi hoon Vigil Wealth se. Kaise hain aap?
+       [Hi Kavita, this is Priya from Vigil Wealth. How are you?]
+
+[0:06] CUSTOMER: Hi Priya, main theek hoon, boliye.
+       [Hi Priya, I'm fine, go ahead.]
+
+[0:08] RM: Kavita ji, pehle main check kar loon — aapka KYC abhi bhi pending dikha raha hai humare system mein. Uske baina hum koi transaction process nahi kar sakte.
+       [Kavita, first let me check — your KYC is still showing pending in our system. We can't process any transaction until that's done.]
+
+[0:19] CUSTOMER: Oh, main woh complete kar deti hoon jaldi. Aap batao, kaunsa fund suitable rahega mere liye?
+
+       [Oh, I'll complete that soon. Tell me, which fund would be suitable for me?]
+
+[0:26] RM: Since aap first-time investor hain aur aapka risk profile Moderate hai, but low experience ke saath — main recommend karungi ki aap Liquid Fund se start karein. Ye low-risk hai, aur aapko market ke saath comfortable hone ka time milega.
+       [Since you're a first-time investor and your risk profile is Moderate, but with low experience — I'd recommend starting with the Liquid Fund. It's low-risk, and gives you time to get comfortable with the market.]
+
+[0:41] CUSTOMER: Okay, that sounds sensible. Returns kaisa milega isme?
+
+       [Okay, that sounds sensible. What kind of returns will this give?]
+
+[0:45] RM: Returns market conditions pe depend karte hain, main koi fixed ya guaranteed number nahi de sakti. Historically ye fund stable raha hai, but it can vary — I want to be clear about that upfront.
+       [Returns depend on market conditions, I can't give you a fixed or guaranteed number. Historically this fund has been stable, but it can vary — I want to be clear about that upfront.]
+
+[0:58] CUSTOMER: Samajh gayi, that's fair. Risk factors kya hain isme?
+
+       [I understand, that's fair. What are the risk factors in this?]
+
+[1:02] RM: Ye debt-type instrument hai, so interest rate changes se thoda impact ho sakta hai, lekin equity funds ke comparison mein bahut kam volatile hai. Main aapko scheme document bhi bhej dungi jisme sab disclosures likhe hain.
+       [This is a debt-type instrument, so it can be impacted a little by interest rate changes, but it's much less volatile compared to equity funds. I'll also send you the scheme document which has all the disclosures.]
+
+[1:16] CUSTOMER: Perfect, please bhej dijiye. Pehle main KYC complete kar leti hoon.
+
+       [Perfect, please send it. First I'll complete my KYC.]
+
+[1:20] RM: Bilkul, KYC complete hone ke baad hi hum aage badhenge. Thank you Kavita ji.
+       [Absolutely, we'll only proceed after KYC is complete. Thank you Kavita.]

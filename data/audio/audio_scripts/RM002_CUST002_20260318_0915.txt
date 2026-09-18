@@ -1,0 +1,45 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM002_CUST002_20260318_0915.wav
+RM: RM002 — Priya Nair
+Customer: CUST002 — Rohan Kapoor (Moderate, Medium Investment Experience)
+Language: Tamil
+Target Duration: ~80-95 seconds
+Ground-truth Severity: HIGH
+Ground-truth Category: Guaranteed Return (explicit)
+Product Discussed: PROD004 — Vigil Large Cap Equity Fund (Medium Risk)
+Violation Notes: RM makes an explicit, unambiguous guaranteed-return claim
+("நிச்சயமா 15% ரிட்டர்ன் கிடைக்கும்") — a direct violation of AMFI Distributor
+Code §II.4.g/h, which is the strongest, most clearly citable violation type.
+========================================================================
+(Tamil script, with English translation in brackets after each line)
+
+[0:00] RM: வணக்கம் ரோஹன் சார், நான் ப்ரியா பேசுறேன், Vigil Wealth-ல இருந்து.
+       [Hello Rohan sir, this is Priya speaking, from Vigil Wealth.]
+
+[0:05] CUSTOMER: வணக்கம் ப்ரியா, சொல்லுங்க.
+       [Hello Priya, tell me.]
+
+[0:07] RM: சார், நான் ஒரு நல்ல ஃபண்ட் பத்தி சொல்லணும்னு கூப்பிட்டேன் — Large Cap Equity Fund. இது ரொம்ப நல்லா perform பண்ணிட்டு இருக்கு.
+       [Sir, I called to tell you about a good fund — the Large Cap Equity Fund. It's performing really well.]
+
+[0:17] CUSTOMER: சரி, எவ்வளவு return கிடைக்கும் இதுல?
+       [Okay, how much return will I get from this?]
+
+[0:21] RM: சார், நான் உங்களுக்கு உறுதியா சொல்றேன், இதுல நிச்சயமா 15% ரிட்டர்ன் கிடைக்கும், எந்த doubt-உம் வேண்டாம்.
+       [Sir, I'm assuring you, in this you will definitely get 15% return, no doubt at all.]
+
+[0:30] CUSTOMER: நிச்சயமா 15%-ஆ? அது கேட்க ரொம்ப நல்லா இருக்கே.
+       [Definitely 15%? That sounds really good.]
+
+[0:34] RM: ஆமா சார், கவலைப்படாதீங்க, உங்க investment பத்தி நான் பாத்துக்குறேன். நான் இப்போவே amount போட்டுடலாமா?
+       [Yes sir, don't worry, I'll take care of your investment. Shall I go ahead and put in the amount now?]
+
+[0:42] CUSTOMER: சரி, போடுங்க, உங்களை நம்பறேன்.
+       [Okay, go ahead, I trust you.]
+
+[0:45] RM: நன்றி சார், நான் இப்போவே process பண்றேன்.
+       [Thank you sir, I'll process this right away.]
+
+[0:48] CUSTOMER: சரி, நன்றி ப்ரியா.
+       [Okay, thank you Priya.]

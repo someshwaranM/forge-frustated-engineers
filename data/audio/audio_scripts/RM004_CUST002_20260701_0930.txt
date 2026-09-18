@@ -1,0 +1,49 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM004_CUST002_20260701_0930.wav
+RM: RM004 — Sneha Kulkarni
+Customer: CUST002 — Rohan Kapoor (Moderate, Medium Investment Experience)
+Language: English + Hindi (code-mixed)
+Target Duration: ~60-75 seconds
+Ground-truth Severity: MEDIUM
+Ground-truth Category: Missing / Inadequate Risk Disclosure (partial)
+Product Discussed: PROD003 — Vigil Balanced Hybrid Fund (Medium Risk)
+Violation Notes: Suitability is fine (Moderate customer, Medium-risk product).
+RM explains benefits reasonably well but mentions risk only vaguely ("market
+risk hota hai") without covering the specific hybrid-allocation disclosure this
+product requires — a partial, not total, disclosure gap.
+========================================================================
+
+[0:00] RM: Hi Rohan, Sneha here from Vigil Wealth. Kaise ho aap?
+       [Hi Rohan, Sneha here from Vigil Wealth. How are you?]
+
+[0:05] CUSTOMER: Hi Sneha, main theek hoon, bताओ.
+       [Hi Sneha, I'm fine, tell me.]
+
+[0:07] RM: Rohan, main aaj Balanced Hybrid Fund ke baare mein baat karna chahti thi. Ye equity aur debt dono mein invest karta hai, achha balance deta hai.
+       [Rohan, today I wanted to talk about the Balanced Hybrid Fund. It invests in both equity and debt, gives a good balance.]
+
+[0:17] CUSTOMER: Sounds interesting, benefits kya hain iske?
+
+       [Sounds interesting, what are the benefits of this?]
+
+[0:20] RM: Isme diversification milta hai, and historically ye category steady returns deta aaya hai. Aapke Moderate profile ke liye achha fit hai ye.
+       [You get diversification, and historically this category has given steady returns. This is a good fit for your Moderate profile.]
+
+[0:29] CUSTOMER: Okay, risk kaisa hai isme?
+
+       [Okay, what's the risk like in this?]
+
+[0:31] RM: Dekho, market risk hota hai obviously, but overall ye equity-only funds se kam risky hai. Main aapke liye ye recommend karti hoon.
+       [Look, there's market risk obviously, but overall it's less risky than equity-only funds. I'd recommend this for you.]
+
+[0:40] CUSTOMER: Theek hai, sounds reasonable. Chaliye process kar dijiye.
+
+       [Okay, sounds reasonable. Go ahead and process it.]
+
+[0:44] RM: Sure, main form bhej deti hoon abhi.
+       [Sure, I'll send the form right away.]
+
+[0:47] CUSTOMER: Thanks Sneha.
+
+[0:48] RM: Thank you Rohan, have a good day.

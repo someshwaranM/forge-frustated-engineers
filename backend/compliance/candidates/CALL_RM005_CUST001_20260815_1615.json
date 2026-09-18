@@ -1,0 +1,23 @@
+{
+  "call_id": "CALL_RM005_CUST001_20260815_1615",
+  "customer_id": "CUST001",
+  "rm_id": "RM005",
+  "date_time": "2026-08-15T16:15:00Z",
+  "product_identification_status": "IDENTIFIED",
+  "product": {
+    "product_id": "PROD001",
+    "product_name": "Vigil Liquid Fund",
+    "risk_class": "Low",
+    "suitable_risk_profiles": [
+      "Conservative",
+      "Moderate",
+      "Aggressive"
+    ],
+    "matched_term": "liquid fund",
+    "confirmed_in_transactions": true
+  },
+  "candidate_count": 0,
+  "candidates": [],
+  "detection_completed_at": "2026-09-18T08:15:05.734590+00:00",
+  "generated_at": "2026-09-18T08:15:05.734590+00:00"
+}

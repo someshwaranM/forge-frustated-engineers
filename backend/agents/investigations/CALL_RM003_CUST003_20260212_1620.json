@@ -1,0 +1,46 @@
+{
+  "call_id": "CALL_RM003_CUST003_20260212_1620",
+  "date_time": "2026-02-12T16:20:00Z",
+  "rm_id": "RM003",
+  "customer_id": "CUST003",
+  "total_candidates": 1,
+  "confirmed_count": 1,
+  "dismissed_count": 0,
+  "investigations": [
+    {
+      "candidate_id": "CAND_CALL_RM003_CUST003_20260212_1620_01",
+      "outcome": "CONFIRMED",
+      "finding": {
+        "finding_id": "FND-2026-C15049",
+        "call_id": "CALL_RM003_CUST003_20260212_1620",
+        "rm_id": "RM003",
+        "customer_id": "CUST003",
+        "category": "MISSING_DISCLOSURE",
+        "severity": "HIGH",
+        "confidence": 0.95,
+        "status": "OPEN",
+        "timestamp_start": 6.0,
+        "timestamp_end": 33.0,
+        "transcript_evidence": "I was thinking of talking about a sectoral thematic fund. It's recently in a very good momentum, do you know? This focuses on a specific high-growth sector. It's a perfect fit for aggressive investors, especially for those with a profile like yours. I'm saying, it would be good if we put 3 lakhs. Shall I go ahead and process it right now?",
+        "customer_risk_profile": "Aggressive",
+        "product_risk_class": "High",
+        "regulation_chunk_id": "SEBI_MASTER_CIRCULAR_MF_3_57",
+        "regulation_citation_label": "SEBI Master Circular MF \u00a73, p.94",
+        "regulation_source_url": "https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100491.html",
+        "reasoning": "The RM recommended Vigil Sectoral Thematic Fund (High risk product) requiring mandatory risk-o-meter + concentration-risk disclosure + no-guaranteed-return disclosure, but provided ZERO risk disclosures during the entire sales pitch. The RM only mentioned 'good momentum' and 'perfect fit for aggressive investors' without any risk-o-meter explanation, volatility warnings, or concentration risk disclosures as mandated by SEBI regulations for High risk products. This constitutes a complete absence of mandatory risk disclosures.",
+        "recommended_action": "Immediate supervisory review and mandatory retraining on SEBI risk disclosure requirements for High risk products",
+        "provider_used": "bedrock",
+        "bm25_score": 34.6876,
+        "semantic_score": 0.8188,
+        "created_at": "2026-09-18T07:45:32.052744Z",
+        "updated_at": "2026-09-18T07:45:32.052744Z"
+      },
+      "provider_used": "bedrock",
+      "reasoning": "The RM recommended Vigil Sectoral Thematic Fund (High risk product) requiring mandatory risk-o-meter + concentration-risk disclosure + no-guaranteed-return disclosure, but provided ZERO risk disclosures during the entire sales pitch. The RM only mentioned 'good momentum' and 'perfect fit for aggressive investors' without any risk-o-meter explanation, volatility warnings, or concentration risk disclosures as mandated by SEBI regulations for High risk products. This constitutes a complete absence of mandatory risk disclosures.",
+      "investigation_completed_at": "2026-09-18T07:45:25.865779+00:00",
+      "case_id": "CASE-2026-C15049"
+    }
+  ],
+  "investigation_completed_at": "2026-09-18T07:45:33.053638+00:00",
+  "generated_at": "2026-09-18T07:45:33.053638+00:00"
+}

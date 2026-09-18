@@ -1,0 +1,34 @@
+CALL METADATA (for internal reference — not part of the spoken script)
+========================================================================
+File: RM003_CUST003_20260630_1330.wav
+RM: RM003 — Vikram Sinha (2nd call, same RM/customer pair as call #5, different date)
+Customer: CUST003 — Anjali Rao (Aggressive, High Investment Experience)
+Language: English
+Target Duration: ~40-55 seconds
+Ground-truth Severity: LOW
+Ground-truth Category: Borderline / ambiguous language (should NOT auto-confirm as
+a violation — this tests that Vigil doesn't over-flag soft, hedged language)
+Product Discussed: PROD007 — Vigil Multi Asset Allocation Fund (Medium Risk)
+Violation Notes: RM uses soft, hedged, opinion-based language ("I think this
+should perform well") rather than a guarantee. This is deliberately ambiguous —
+a well-tuned system should flag it at low confidence/severity or route to manual
+review, not treat it as a confirmed HIGH violation.
+========================================================================
+
+[0:00] RM: Hi Anjali, Vikram again — following up on the sectoral fund from a few months back. How's it looking so far?
+
+[0:07] CUSTOMER: It's doing alright, a bit choppy but okay. What did you want to discuss today?
+
+[0:12] RM: I wanted to flag a Multi Asset Allocation Fund we've just added. Given the market mood right now, I think this should perform well over the next year or so.
+
+[0:22] CUSTOMER: "Should perform well" — how confident are you on that, really?
+
+[0:26] RM: Well, nothing's certain of course, but based on how multi-asset funds have generally behaved in similar conditions, I'd lean towards it doing reasonably well. It's not a small allocation, so worth considering.
+
+[0:37] CUSTOMER: Okay, let me think about it and get back to you.
+
+[0:40] RM: Sure, no rush. I'll send you the fund details over email.
+
+[0:43] CUSTOMER: Sounds good, thanks Vikram.
+
+[0:45] RM: Thanks Anjali, talk soon.
